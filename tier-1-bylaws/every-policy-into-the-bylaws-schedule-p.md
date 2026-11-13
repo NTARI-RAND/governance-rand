@@ -1,4 +1,4 @@
-# Add every policy to the bylaws through one register, Schedule P; move P2-004 to DCO; license documents CC BY-SA 4.0
+# Add every policy to the bylaws through one register, Schedule P; move P2-004 to DCO; AGPL-3.0 for documents and code
 
 **Tier 1 research · Governance · Bylaws**
 **Filed:** 2026-11-13 · **Author:** Jodson Graves
@@ -6,19 +6,19 @@
 
 ## Summary
 
-This note answers three questions. The answers are recommendations for the federation to test. Nothing here is adopted.
+This note answers three questions. The first two answers are recommendations for the federation to test, and nothing in them is adopted. The third has been decided since the note was filed: governance registry Entry 9 records it.
 
 1. **Where to place the policies.** Put every policy into the bylaws through one register, **Schedule P**. Each policy becomes an entry in Schedule P, which is part of the bylaws: a code of the bylaws under KRS 273.161(6). Only its full text sits in a pinned file, in [NTARI-RAND/Policies](https://github.com/NTARI-RAND/Policies) or beside the code it governs, so changing a policy does not need a member-only Article XV amendment. The Secretary keeps Schedule P as a separate file in [NTARI-RAND/bylaws](https://github.com/NTARI-RAND/bylaws), filed under the bylaws section each policy serves. The bylaws text itself keeps only four kinds of rule: what Kentucky law requires to be there, rules that bind members, checks on a power, and rules that protect the commons from NTARI itself. Eleven bylaws changes make this work; they pass the bylaws suite in scratch copies of v1.0 and v1.1.
 2. **Correcting P2-004 §3.** Replace copyright assignment and the CLA with what NTARI already does: every commit carries a DCO sign-off by its author with no bypass, authors keep their copyright, and NTARI takes no assignment. Strike the governance seats earned by lines of code and the settlement option that sells "cooperative membership" with governance rights. Put the floor in bylaws §9.4 so that neither the Board nor an officer can bring a CLA back.
-3. **What license for documents.** Keep AGPL-3.0 for all software, as the President directed, and for software-bound documentation (built into, run by or shipped with software). Use CC BY-SA 4.0 for every other document, wherever it is stored: the specification (already), the bylaws, policies, research and course material. CC BY-SA is stronger than AGPL for prose on two points (it bars DRM and licenses database rights) and weaker on one (no source duty), which a policy rule closes: the editable source goes into a public repository before anything is published.
+3. **What license for documents.** Decided: AGPL-3.0 for every work the Institute publishes, documents and code alike, until a stronger copyleft appears. The President decided this on 2026-11-13, after reading this note's first version, which recommended CC BY-SA 4.0 for documents. Governance registry Entry 9 records it and amends P2-004 Part 2. Under AGPL a Markdown file is the document's source, and every rendered or printed copy must come with that source and the full license. The JFA official document keeps its CC BY-SA 4.0 footer until an amendment under §9.2 changes it. The research behind the first recommendation stays in this note as the record of the costs the decision accepts.
 
 **Asks of the federation:**
 
 1. Agree that placement follows a policy's job and subject, never its P-number, and that Schedule P is the one place for every policy.
 2. Test the bylaws text in [The new bylaws text](#the-new-bylaws-text) as the basis for a bootstrap act. The founder board would adopt it under §16.1, ideally as part of the pending v1.1 adoption.
 3. Test the replacement P2-004 part 3 in [Replacement text for P2-004 part 3](#replacement-text-for-p2-004-part-3). The founder board, acting as the Board, would ratify P2-004 v2.0.
-4. Choose the documents license. The recommendation is CC BY-SA 4.0, with AGPL-3.0 for software-bound documentation.
-5. Choose between AGPL-3.0 "or any later version" and "only" with a proxy the membership names.
+4. Choose between AGPL-3.0 "or any later version" and "only" with a proxy the membership names. Until then, notices written under Entry 9 name version 3 only.
+5. Decide whether the JFA specification should follow Entry 9 to AGPL-3.0, which needs an amendment of the official document under §9.2.
 6. Answer the [questions for #federation-governance](#questions-for-federation-governance) and the counsel questions under [Recommendation](#recommendation).
 
 The President's stated direction of 2026-11-13 frames all three answers:
@@ -27,6 +27,7 @@ The President's stated direction of 2026-11-13 frames all three answers:
 - The Janus specification keeps its CC BY-SA 4.0 footer for now.
 - DCO instead of a CLA is deliberate.
 - Every policy goes into the bylaws, and where to place them matters most.
+- After this note was filed: "AGPL-3 for all docs and code" (registry Entry 9).
 
 ## Terms used here
 
@@ -54,7 +55,7 @@ The President's stated direction of 2026-11-13 frames all three answers:
 *Licenses and copyright*
 
 - **Copyleft.** A license condition: anyone may copy, change and share the work, but copies and changed versions must carry the same freedoms.
-- **AGPL-3.0.** The GNU Affero General Public License, version 3. A copyleft license for software. A changed program that people use over a network must offer them its source.
+- **AGPL-3.0.** The GNU Affero General Public License, version 3. A copyleft license written for software, which covers any copyrightable work; NTARI uses it for documents too (Entry 9). A changed program that people use over a network must offer them its source.
 - **GPL-3.0.** The GNU General Public License, version 3. AGPL-3.0 without the network duty.
 - **CC BY-SA 4.0.** Creative Commons Attribution-ShareAlike 4.0. A copyleft license built for documents, images and data.
 - **CC BY 4.0.** Creative Commons Attribution 4.0. A permissive license: it requires credit but lets anyone make closed versions.
@@ -64,8 +65,7 @@ The President's stated direction of 2026-11-13 frames all three answers:
 - **SPDX.** Standard short license names, such as `AGPL-3.0-or-later`, written into files.
 - **"Or any later version".** A grant that lets anyone use later versions of the license the FSF publishes (AGPL §14).
 - **Proxy (AGPL §14).** A person or body the licensor names to decide whether later license versions may be used.
-- **Software-bound documentation.** Documentation that is part of software: built into it, run by it, or shipped with it, such as documentation-site source, help text and the conformance suites. A paper or specification stored in a software repository is not software-bound.
-- **Source, preferred form.** The form people edit. For a document that is the Markdown or LaTeX file, not the PDF.
+- **Source, preferred form.** The form people edit. For a document that is the Markdown or LaTeX file, not the PDF. AGPL calls this the source code and any other form, such as a rendered page or a print, object code (AGPL §1).
 - **DRM.** Digital rights management: technical locks that stop people copying or changing a copy they hold.
 - **One-way compatibility.** One license's material may go into works under a second license, but not back.
 - **Dual-license.** Offering one work under two licenses, typically copyleft for free and closed terms for a fee.
@@ -152,7 +152,7 @@ No KRS 273 section expressly allows or forbids bylaws that bind separately kept 
 
 ### Where each policy goes
 
-**The answer.** The table gives each of the 61 inventory entries (52 numbered, 9 unnumbered) one place. It also places three documents the verification found cited in the bylaws v3.1 draft, and three the review added. Section numbers are bylaws v1.0 sections, the same in v1.1 for every section touched here. "Copy" means a text that is not canonical. The last column says how an entry changes after opening.
+**The answer.** The table gives each of the 61 inventory entries (52 numbered, 9 unnumbered) one place. It also places three documents the verification found cited in the bylaws v3.1 draft, and three the review added, plus registry Entry 9, recorded after filing. Section numbers are bylaws v1.0 sections, the same in v1.1 for every section touched here. "Copy" means a text that is not canonical. The last column says how an entry changes after opening.
 
 Seats: Covenant = President and Covenant federation. Governance = Vice President and Governance federation. Record = Secretary and Record federation. Economy & Information = Treasurer and its federation. Substrate = Workspace Administrator and Substrate federation.
 
@@ -170,12 +170,13 @@ Three kinds of fact below were reported by the inventory on 2026-11-13 and not r
 | Registry Entry 5, Audio Arts seed: §3.2(b) reading and §14.3 disclosure | §3.2(b), pointer at §14.3 | Pointer row. A reading of a membership condition must never become a Board policy (§7.6, §14.6, KRS 273.187(1)) | Founder board | A binding reading of §3.2(b) only by the membership or under Article XII |
 | Registry Entries 6–7, secret scanning and push protection default for new repositories | [§13.1][v10-13.1], pointer at §8.6 | (b) "Repository security defaults", in force as a recorded bootstrap act, pending a confirming Board act under §7.4. Takes a fresh P2 number. Entry 6 was decided by the President for the founder board; Entry 7 is an annotation of it | Board; kept by the Substrate seat | Board act. The office may tighten by procedure; only the Board loosens |
 | Registry Entry 8, LBTAS reading "page the volume, never the harm" | §9.12, beside P3-014 | (c) a procedure (reading) of the President's office under [§8.2][v10-8.2], pending a confirming Board act under §7.4: it reads how the LBTAS API the office oversees behaves, which comes close to the office's own duties (§14.10). Entry 8 itself says it is not an amendment | Covenant seat | The office reissues it with Board confirmation; the Board may revoke it; a version meant to bind the covenant goes through §9.2 |
+| Registry Entry 9, AGPL-3.0 for all works, documents and code alike (2026-11-13) | §9.4, beside P2-004 | (b) in force as a recorded Board act amending P2-004 Part 2. Its rule moves into the §9.4 text with the bylaws act | Board, for P2-004; the membership, once §9.4 carries the floor | Board act until §9.4 carries it; then Article XV only |
 
 **P1 series**
 
 | Document | Place | Class and status at opening | Owner, kept by | Changed afterwards by |
 |---|---|---|---|---|
-| P1-002 Whitepaper: Addressing Democratic Information Velocity v3.0 | §1.4(c) | (d) informative. ntari.org post; Confluence 73334786 is a copy. Its first number (P1-005, shared 2025-10-02) is recorded as retired alias P1-005a | Institute as author; filed with the Governance seat | Secretary annotation. Fix the web footer that puts it under "AGPL v3" |
+| P1-002 Whitepaper: Addressing Democratic Information Velocity v3.0 | §1.4(c) | (d) informative. ntari.org post; Confluence 73334786 is a copy. Its first number (P1-005, shared 2025-10-02) is recorded as retired alias P1-005a | Institute as author; filed with the Governance seat | Secretary annotation. Its web footer's "AGPL v3" already matches Entry 9 |
 | P1-003 Continuous Board Meeting Policy | [§7.4][v10-7.4] | (e) awaiting ratification. "Accepted April 21, 2026" in Slack, before v1.0; no registry entry. Its 5-of-8 quorum, 2-day notice and quarterly meetings conflict with v1.0 §7.2 and §7.4. The consent rule itself stays in the §7.4 text | Board; the Secretary records actions | Ratify as a conformed v2.0, or retire it as redundant to §7.4 |
 | P1-003a Political Campaign and Lobbying Activities Policy (gen-1; also shared as P1-006, recorded as alias P1-006a) | §1.2 | (e) lost (Confluence 72548356 deleted) | Board if revived; Treasurer for compliance reporting | Revival is a new policy with a fresh number |
 | P1-003b The Anthropology of Light v1.0 | §1.4(c) | (d) informative, draft research (Confluence 79298611) | Institute as author; Governance seat | Secretary annotation |
@@ -201,7 +202,7 @@ Three kinds of fact below were reported by the inventory on 2026-11-13 and not r
 | P2-004c Virtual Software Development Studio Policy, cited in the bylaws v3.1 draft §2.3 | §1.4(c) | (e) cited; text not found | Secretary keeps the row | Annotation only |
 | P2-005 Open Collective Financial Policies v0.1 | §14.2, pointers at §8.5 and §9.7 | (e) draft; number provisional. Its §9.4 citation for a documents license (L138, L251) matches neither bylaws version; it resolves once §9.4 names one | Board; kept by the Economy & Information seat | Board act; it commits funds |
 | P2-005a Open-Source Distribution Policy (gen-1) | §13.1 | (e) superseded by P2-003 (Confluence 67371020) | None | Annotation only |
-| P2-005b NTARi Corps Volunteer R&D Policy v1.0 | §14.4, pointer at §1.4(c)–(d) | (e) draft (canvas F09PPRKFCMV). Its "AGPL-3.0 or compatible" and AGPL-for-data clauses must be rewritten to §9.4 | Board; the entering act names the keeping office | Board act. Becomes the volunteer umbrella policy |
+| P2-005b NTARi Corps Volunteer R&D Policy v1.0 | §14.4, pointer at §1.4(c)–(d) | (e) draft (canvas F09PPRKFCMV). Its "AGPL-3.0 or compatible" clause must be tightened to §9.4; its AGPL-for-data clause already matches Entry 9 | Board; the entering act names the keeping office | Board act. Becomes the volunteer umbrella policy |
 | P2-005c Strategic Partnership Management Policy, cited in the bylaws v3.1 draft §7.3 | §14.2 | (e) cited; text not found | Secretary keeps the row | Annotation only |
 | P2-005d NTARI Secretary Responsibilities | [§8.4][v10-8.4] | (e) unverified (a role description shared by direct message; not read) | Board | Folded into the officer-duties policy |
 | P2-006 Fiscal Hosting Policy and Terms v0.1 | §14.2, pointers at §8.5 and §9.7 | (e) draft. Terms §8.2 already says NTARI "takes no assignment of copyright" | Board; kept by the Economy & Information seat; the Secretary keeps the register | Board act; it binds outside parties |
@@ -307,12 +308,11 @@ Replace "maintains the governance registry of §9.5," with "maintains the govern
 
 #### §9.4 Licensing floor (replace; v1.0 L189)
 
-> **9.4 Licensing floor.** Software the Institute publishes, JFA software and the conformance suites included, is licensed under the GNU Affero General Public License, version 3 [or any later version | only] (AGPL-3.0), and so is documentation built into, run by, or shipped with that software. Every other work the Institute publishes, the specification, these bylaws, its policies, research, and educational material included, is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0). The floor moves only toward stronger copyleft: the membership may, by amendment under Article XV, name a successor license for either kind of work that keeps every freedom and every reciprocal obligation of the license it replaces, for software the duty to offer source to network users included, and no act moves a work to a weaker license. Work the Institute did not write keeps its own license, and the Institute's changes to it follow this floor wherever that license allows. The Institute never relicenses any work into proprietary terms and never offers a work under a second license for any party's private advantage. It accepts a contribution only when each commit carries a sign-off under the Developer Certificate of Origin by the commit's author, and that check admits no bypass; the author keeps the copyright, and the Institute takes no assignment of copyright and requires no contributor license agreement, so that copyright stays spread among those who wrote the work. It signs no agreement that would let any party — including the Institute — close what is open.
+> **9.4 Licensing floor.** Every work the Institute publishes, software and documents alike, JFA software, the conformance suites, these bylaws, its policies, research, and educational material included, is licensed under the GNU Affero General Public License, version 3 [or any later version | only] (AGPL-3.0); the official document alone keeps the license its own text states, which changes only under §9.2. The floor moves only toward stronger copyleft: the membership may, by amendment under Article XV, name a successor license that keeps every freedom and every reciprocal obligation of AGPL-3.0, the duty to offer source to network users included, and no act moves a work to a weaker license. Work the Institute did not write keeps its own license, and the Institute's changes to it follow this floor wherever that license allows. The Institute never relicenses any work into proprietary terms and never offers a work under a second license for any party's private advantage. It accepts a contribution only when each commit carries a sign-off under the Developer Certificate of Origin by the commit's author, and that check admits no bypass; the author keeps the copyright, and the Institute takes no assignment of copyright and requires no contributor license agreement, so that copyright stays spread among those who wrote the work. It signs no agreement that would let any party — including the Institute — close what is open.
 
-Three choices are left to the founder board, after the federation deliberates:
+The license itself is no longer a choice: Entry 9 decided AGPL-3.0 for documents and code. Two choices are left to the founder board, after the federation deliberates:
 
 - **The bracket.** AGPL "or any later version" or "only". See [Or later, or only](#or-later-or-only).
-- **The documents sentence.** It carries this note's recommendation. If the federation prefers AGPL for everything, that sentence changes and nothing else does.
 - **The transition period** in §16.4 (proposed: ninety days).
 
 Today v1.0 §9.4 names only "JFA software" under AGPL-3, then says "never relicenses either" with no second object. The sign-off is the commit author's, as the DCO check enforces; DCO 1.1 lets that author certify work they did not write, such as compatible code.
@@ -374,13 +374,13 @@ Why the set-aside is spelled out: reopening under [§6.7][v10-6.7] reaches only 
 
 Why: v1.0 has no savings clause. Its header supersedes only the v6.0–v8.0 bylaws ([v1.0 L5][v10-hdr]). P2-004 (approved in Slack on 2026-02-15) and P1-003 (accepted 2026-04-21) both predate v6.0, which the verification dates to June 2026, so a test by bylaws line might miss them. A date does not.
 
-The published-notice sentence keeps the website Privacy and Terms in force without breaking the pinning rule: their pinned version is the committed copy. The last sentence gives the new §9.4 a transition: on adoption day GovOS and governance-rand are GPL-3.0 and the bylaws suite carries no AGPL notice.
+The published-notice sentence keeps the website Privacy and Terms in force without breaking the pinning rule: their pinned version is the committed copy. The last sentence gives the new §9.4 a transition: on adoption day, any work not yet relicensed under Entry 9 still carries its old license.
 
 #### Appendix: four provenance rows (informative)
 
 | Provision | Demand | Source |
 |---|---|---|
-| §9.4 (as amended) | AGPL-3.0 for all software until a stronger copyleft; CC BY-SA 4.0 for other works; DCO sign-off with no bypass; authors keep copyright; no assignment | President's direction of 2026-11-13; P2-004 parts 2 and 3, as corrected; governance registry Entry 4 |
+| §9.4 (as amended) | AGPL-3.0 for every work, software and documents, until a stronger copyleft; the official document keeps its own license until §9.2; DCO sign-off with no bypass; authors keep copyright; no assignment | President's direction of 2026-11-13; governance registry Entries 4 and 9; P2-004 parts 2 and 3, as amended and corrected |
 | §14.3 (as amended) | No conflicted transaction approved by a single director | KRS 273.219(3), which denies a single director's approval its safe harbor; the bar goes further by choice |
 | §14.8 | Order of instruments: law, articles, official document and invariant registry, bylaws text, suite and dispute design, board policies, procedures | P2-001 Authority Hierarchy, corrected; §1.2; §15.2; KRS 273.247(4) |
 | §14.9, §14.10, §16.4 | Every policy has one place, filed under the section it serves; authority by class, not series; pinned by commit; numbers never reissued; pre-v1.0 policies ratified only as conformed | KRS 273.161(6), 273.191, 273.228; P1-001 v8.0 Appendix B precedent; §9.16 (identifiers never reused); President's direction of 2026-11-13 |
@@ -453,14 +453,16 @@ A follow-up suite check is recommended: every row names an existing section, a c
 **The answer.** Notice first, then the §9.4 choices, one bylaws act, and a short series of Board acts.
 
 1. **Give the federation notice.** Post this note to #federation-governance. Notice is not required during bootstrap, but it lets members object first. One week ([§6.4][v10-6.4]) is a minimum. #federation-governance deliberates with no deadline, so the founder board acts once deliberation settles, or records why it acts sooner.
-2. **Decide the §9.4 choices.** The founder board decides the documents license (recommended: CC BY-SA 4.0, with AGPL-3.0 for software-bound documentation), "or any later version" versus "only", and the §16.4 transition period. Once adopted, only the membership can change them.
+2. **Decide the §9.4 choices.** The documents license is decided (Entry 9: AGPL-3.0 for everything). The founder board decides "or any later version" versus "only", and the §16.4 transition period. Once adopted, only the membership can change them.
 3. **Get the articles of incorporation.** Pull the filed articles from the Kentucky Secretary of State and read them. They outrank the bylaws (KRS 273.247(4)), and P2-004 claims they hold a covenant.
 4. **Publish the governance registry.** Commit GOVERNANCE-REGISTRY.md to a public repository, for example NTARI-RAND/bylaws, and pin it. Until then, only commits serve as pins. Annotate Entry 1, whose link points to a local copy of v1.0 that differs from the adopted text at §6.7 and §12.5.
 5. **Commit the canonical texts.** Commit every text a binding or awaiting entry needs to NTARI-RAND/Policies, and widen its README scope beyond "P2 and P3 series". Start with what exists only in Slack canvases (P2-004, P1-003, Voting Workflows), local files (P2-001, P2-002, P2-003, P2-005, P2-006, P3-005), Wix (Privacy, Terms) and Agrinet branches (P3-002, P3-011 to P3-013). Diff the local P2-001 against canvas F09MSHV2DC2 first. Then mark each canvas and web copy with a banner naming the pinned commit ([Question 23](#questions-for-federation-governance)).
 6. **Bootstrap act (§16.1).** Adopt the eleven bylaws changes as part of the v1.1 adoption, or as a new version file, never by editing v1.0 in place. Record it in the registry with the signed consents counsel confirms (every director under KRS 273.375, or every voting member under KRS 273.377). Update the seven translations (suite B7). In the same act, or before it, bring NTARI's own works into §9.4:
-   - relicense GovOS from GPL-3.0 to AGPL-3.0 (only the NTARI account appears in its contributors);
-   - move new governance-rand research to CC BY-SA 4.0;
-   - add an SPDX AGPL-3.0 header and an AGPL license file for `bylaws-conformance-suite.py`.
+   - relicense GovOS and governance-rand from GPL-3.0 to AGPL-3.0, keeping the governance-rand#2 report under GPL-3.0 unless its author agrees otherwise;
+   - relicense the eleven CC BY-SA 4.0 repositories (bylaws, Policies, the four *-rand research repositories and the five seeds) to AGPL-3.0, each notice saying that versions already published stay available under CC BY-SA 4.0;
+   - add SPDX AGPL-3.0 headers where files carry none, `bylaws-conformance-suite.py` included.
+
+   Entry 9 directs this relicensing now, so it need not wait for the bylaws act.
 
    Then update the bylaws README and CONTRIBUTING. CONTRIBUTING L3 limits the repository to P1-001, and [L9-13][contrib-9] tells contributors to edit v1.0 in place and has the Board approving amendments in review; point it at new version files instead. Route open bylaws PR #8 into the next version file: it edits v1.0 in place, and its new §9.19 collides with v1.1's §9.19.
 7. **The same day, open Schedule P.** The Secretary opens it by a registry entry and makes every opening row in the status the placement table gives.
@@ -482,10 +484,8 @@ A follow-up suite check is recommended: every row names an existing section, a c
    - the Privacy and Terms confirmations;
    - the federation procedures for P3-012 to P3-014.
 10. **Housekeeping:**
-    - Fix the P1-002 web footer.
     - Give the Material Culture paper a fresh number.
     - Make the bylaws Conformance check a required check on `main`. Today only DCO and one review are required, though `conformance.yml` L3 says otherwise.
-    - Fix the bylaws repository description, which says "AGPL-3.0".
     - Fix the README's "not yet published" note on the dispute design, its missing P1-005 and its P2-002 citation.
 11. **At the end of bootstrap,** anything still awaiting ratification is marked superseded (§16.4).
 
@@ -555,7 +555,7 @@ The canonical text is Slack canvas F0AFYMXLCJU (effective 2026-02-15, "Authority
 - **Under DCO,** no one holds the whole, so no one can close it alone. DCO 1.1 certifies the right to submit "under the open source license indicated in the file" ([developercertificate.org](https://developercertificate.org/)). It transfers nothing.
 - **The bylaws already point this way.** §9.4 bars any agreement that would let NTARI close what is open.
 
-The friction cuts both ways, and that is the point. Moving the GPL-3.0 governance-rand repository to another license already needs the consent of every holder, including the author of the merged Phase 1 report (governance-rand PR #2).
+The friction cuts both ways, and that is the point. Entry 9 moves NTARI's own text in governance-rand to AGPL-3.0, but the merged Phase 1 report (governance-rand PR #2) stays GPL-3.0 unless its author agrees otherwise.
 
 ### The enforcement trade-off
 
@@ -610,9 +610,9 @@ of copyleft without the consent of every holder whose work it contains.
 
 (a) Inbound = outbound. A contribution is licensed by its author under the
     license of the file or repository it enters, or under a compatible
-    license indicated in the file. For software that is AGPL-3.0
-    [or any later version]; for documents it is the license bylaws §9.4
-    and part 2 give them. There is no separate contributor agreement.
+    license indicated in the file. For software and documents alike
+    that is AGPL-3.0 [or any later version], as bylaws §9.4 and part 2
+    give it. There is no separate contributor agreement.
 (b) Sign-off. Every commit carries a Signed-off-by trailer certifying the
     Developer Certificate of Origin 1.1. The name in the trailer matches
     the commit author.
@@ -703,7 +703,7 @@ The second is an optional copyleft enforcement authorization. It transfers no co
 ### Other edits P2-004 needs for v2.0
 
 - **Header.** Add a real effective date. Fix both "Related Policies" labels. Replace "Executive Director" with an office from §8.1.
-- **Parts 2.1–2.3.** Replace with the new part 2 below (software AGPL-3.0, documents CC BY-SA 4.0). This withdraws the alternative-license criteria and the CC BY 4.0 for policies.
+- **Parts 2.1–2.3.** Already amended by registry Entry 9 (AGPL-3.0 for everything). The new part 2 below writes that amendment into the policy text, and withdraws the alternative-license criteria, the CC BY-SA 4.0 for documentation and the CC BY 4.0 for policies.
 - **Part 4.2.** Strike Phase 3 "Option C" and any settlement that gives governance rights. Phase 4 suits are brought by or with the holders of the lines. Note registration under §411–§412.
 - **Two open canvas comments.** Close both threads on canvas F0AFYMXLCJU. One proposes defining "more permissive copyleft" as a Board-approved license that keeps reciprocal source duties; v2.0 answers it, since only the membership may name a successor, and only a stronger one (part 2.4). The other proposes replacing "3 years from discovery" with "applicable statutes of limitation"; adopt it in part 4.2.
 - **Part 5.** Run the enforcement partnership through part 7 authorizations.
@@ -722,167 +722,165 @@ The second is an optional copyleft enforcement authorization. It transfers no co
 
 ## What license for documents
 
-**The answer.** Two licenses, one rule for each kind of work, decided by what the work does, not where it is stored:
+**The answer.** Decided: AGPL-3.0 for every work the Institute publishes, documents and code alike, until a stronger copyleft appears. The President decided this on 2026-11-13, after reading this note's first version, which recommended CC BY-SA 4.0 for documents. Governance registry Entry 9 records the decision as a Board act amending P2-004 Part 2.
 
-- **AGPL-3.0 for all software,** and for software-bound documentation: documentation built into, run by or shipped with the software, such as documentation-site source, help text and the conformance suites.
-- **CC BY-SA 4.0 for every other document:** the specification (as now), the bylaws, every policy, the registry, research, course material, website text, translations, and data. A research paper or specification kept in a software repository carries its own CC BY-SA notice, as Janus's `LICENSE-SPEC` does.
+- **What it covers.** The bylaws, every policy, the governance registry, research, technical documentation, course material, website text, translations and data, and the PDFs, slides and prints made from them.
+- **The exception.** The JFA official document keeps the CC BY-SA 4.0 its footer states until an amendment under §9.2 changes it ([Question 1](#questions-for-federation-governance)).
+- **What this section records.** What AGPL means for a document, the costs the decision accepts, and the research behind the first recommendation.
 
-Add one practice rule that closes CC BY-SA's only real gap. The editable source of every document is committed to a public NTARI-RAND repository before it is published anywhere else.
+### What AGPL means for a document
 
-### Why not AGPL for documents too
+**The answer.** AGPL treats a document exactly as it treats code. The Markdown file is the source, and every rendered or printed copy is object code.
 
-**The answer.** AGPL *can* cover documents: it applies to any copyrightable work (AGPL §0), and the FSF says the GPL family fits any work with a clear source form ([GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#GPLOtherThanSoftware)). But for prose its one real advantage, the source requirement, is outweighed by its costs:
+- **It covers any work.** AGPL defines "the Program" as "any copyrightable work licensed under this License" (AGPL §0). The FSF says the GPL family fits any work with a clear source form ([GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#GPLOtherThanSoftware)).
+- **The editable file is the source.** Source code is "the preferred form of the work for making modifications to it", and object code is "any non-source form of a work" (§1). A rendered web page, a PDF and a print are object code.
+- **Copies carry the source.** A copy in object form must come with the source, or with a written offer of it for a print (§6(b)), or with clear directions to a server that holds it (§6(d)). CC BY-SA never required this; it is the reason to choose AGPL for prose.
+- **Copies carry the license.** Every copy must carry the license text itself; the FSF says a URL is not enough (§4; [GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#WhyMustIInclude)).
+- **The network clause rarely applies.** §13 covers modified programs people interact with over a network. It does nothing for a static page, and it matters for documentation sites with server code, such as agrinet-docs ([GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#AGPLv3InteractingRemotely)).
+- **No boundary to police.** Code samples in specifications, conformance suites that bind specification text by anchor phrase, and documentation sites that mix prose and code no longer sit across two licenses.
 
-1. **Every copy must carry the whole license.** AGPL §4 requires giving recipients a copy of the license. The FSF says a URL is not enough ([GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#WhyMustIInclude)). Every PDF, handout, slide deck and social post with more than a fair-use excerpt would need about 34 KB of license text. CC BY-SA accepts a link (CC BY-SA 4.0 §3(a)(1)(C)).
-2. **It lets locked copies through.** CC BY-SA bars technological measures that restrict the licensed rights (§2(a)(5)(C), §3(b)(3)). AGPL waives anti-circumvention claims (§3) and requires the source, but it does not bar a DRM-locked copy.
-3. **It is unclear on database rights.** CC BY-SA 4.0 expressly licenses EU database rights (§4). Whether AGPL reaches them is uncertain.
-4. **It walls NTARI off from the commons.** AGPL text cannot go into CC BY-SA projects such as Wikipedia, whose terms require CC BY-SA-compatible imports ([Terms of Use](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use)), and CC BY-SA images, such as those on Wikimedia Commons, cannot go into AGPL PDFs or slides. Creative Commons calls its route from CC BY-SA into GPLv3 "not for general use" ([CC wiki](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3)). The Digital Public Goods standard requires a Creative Commons license for content collections ([DPG Standard, indicator 2](https://github.com/DPGAlliance/DPG-Standard/blob/main/standard.md)).
-5. **The FSF's own advice points elsewhere.** For documentation it recommends the GFDL for large works and a permissive license for short ones; for works not made for a software project, a suitable copyleft, naming CC BY-SA as the fallback. Its advice to use the software's license covers icons, fonts and data for programs, not documentation ([FSF recommendations](https://www.gnu.org/licenses/license-recommendations.html)).
-6. **It would make the specification a permanent exception.** The President kept the specification on CC BY-SA 4.0. With CC BY-SA for all documents, the specification is the rule.
-7. **It needs no relicensing.** The bylaws, Policies and the nine CC BY-SA research and seed repositories already use CC BY-SA 4.0, with only the NTARI account among their contributors. P2-004 v1.0 already put technical documentation and educational content under CC BY-SA 4.0 (part 2.3), and the draft P2-005 cites §9.4 for CC BY-SA on documentation, curricula and data (L138, L251).
+### Costs the decision accepts
 
-The cost of CC BY-SA is real: it has no source requirement. Creative Commons says CC BY-SA licensors may share in any format, modifiable or not ([CC wiki](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3)). The source-in-the-open rule in part 2.3 below closes that gap for NTARI's own publications.
+**The answer.** The first version of this note recommended CC BY-SA 4.0 for documents because of these costs. Entry 9 accepts them.
+
+1. **Every copy carries the whole license.** Every PDF, handout, slide deck and social post with more than a fair-use excerpt needs about 34 KB of license text. CC BY-SA accepts a link (CC BY-SA 4.0 §3(a)(1)(C)).
+2. **Locked copies are not barred.** CC BY-SA bars technological measures that restrict the licensed rights (§2(a)(5)(C), §3(b)(3)). AGPL waives anti-circumvention claims (§3) and requires the source, but does not bar a DRM-locked copy.
+3. **Database rights are uncertain.** CC BY-SA 4.0 expressly licenses EU database rights (§4). Whether AGPL reaches them is uncertain.
+4. **A wall between NTARI and the free-culture commons.** AGPL text cannot go into CC BY-SA projects such as Wikipedia, whose terms require CC BY-SA-compatible imports ([Terms of Use](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use)). CC BY-SA images, such as those on Wikimedia Commons, cannot go into AGPL PDFs or slides; they can be linked. Creative Commons calls its route from CC BY-SA into GPLv3 "not for general use" ([CC wiki](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3)). The Digital Public Goods standard requires a Creative Commons license for content collections ([DPG Standard, indicator 2](https://github.com/DPGAlliance/DPG-Standard/blob/main/standard.md)).
+5. **The FSF's own advice differs.** For documentation it recommends the GFDL for large works and a permissive license for short ones; for works not made for a software project, a suitable copyleft, naming CC BY-SA as the fallback ([FSF recommendations](https://www.gnu.org/licenses/license-recommendations.html)).
+6. **Funders.** A funder's open-access rule may require CC BY 4.0. Secondary sources report this for the Gates Foundation's 2025 policy; its own page was not checked. Entry 9 rules such terms out.
 
 ### The licenses compared
 
-**The answer.** CC BY-SA 4.0 is the best fit for documents, and AGPL-3.0 stays required for software; no other license does better for either.
+**The answer.** AGPL-3.0 is the only license on the list that both is copyleft and requires the editable source with every copy. That is why it serves for documents as well as code. This table is the research record behind both versions of this note.
 
-| License | Copyleft? | Editable source required? | License notice | DRM | Database rights | Works with | Fit for NTARI documents |
+| License | Copyleft? | Editable source required? | License notice | DRM | Database rights | Works with | Status for NTARI |
 |---|---|---|---|---|---|---|---|
-| **CC BY-SA 4.0** | Yes, share-alike | No | Link is enough | Barred | Expressly licensed (§4) | One-way into GPLv3 (declared 2015-10-08); Free Art License 1.3; Wikipedia | **Recommended for documents** |
-| **AGPL-3.0** | Yes, strongest for software | Yes: preferred form; a written offer for print (§6(b)(2)) or a pointer (§6(d)) | Full license copy (§4) | Not barred; circumvention claims waived (§3) | Uncertain | Combines with GPL-3.0 (§13); nothing goes out to CC BY-SA | **Required for software** and software-bound docs |
-| GPL-3.0 | Yes | Yes, as AGPL | Full license copy | As AGPL | Uncertain | The only license CC BY-SA 4.0 flows into (version 3 only) | No gain over AGPL. GovOS should move to AGPL |
+| **AGPL-3.0** | Yes, strongest for software | Yes: preferred form; a written offer for print (§6(b)(2)) or a pointer (§6(d)) | Full license copy (§4) | Not barred; circumvention claims waived (§3) | Uncertain | Combines with GPL-3.0 (§13); nothing goes out to CC BY-SA | **Adopted for all works (Entry 9)** |
+| CC BY-SA 4.0 | Yes, share-alike | No | Link is enough | Barred | Expressly licensed (§4) | One-way into GPLv3 (declared 2015-10-08); Free Art License 1.3; Wikipedia | Kept only for the JFA specification and for versions already published |
+| GPL-3.0 | Yes | Yes, as AGPL | Full license copy | As AGPL | Uncertain | The only license CC BY-SA 4.0 flows into (version 3 only) | No gain over AGPL. GovOS and governance-rand move to AGPL |
 | GFDL 1.3 | Yes, but allows unchangeable sections | Only beyond 100 opaque copies (§3) | Full license copy | — | — | Incompatible with the GPL family and CC BY-SA | No |
-| CC BY 4.0 | No (permissive) | No | Link | — | — | Flows into all GPL versions | No: anyone may close it. P2-004 v1.0 used it for policies |
+| CC BY 4.0 | No (permissive) | No | Link | — | — | Flows into all GPL versions | No: anyone may close it. P2-004 v1.0 used it for policies; Entry 9 withdrew it |
 | Free Art License 1.3 | Yes | Only a pointer to originals (§2.2) | — | — | — | CC BY-SA 4.0 | No: the FSF says not to use it for software or documentation |
-| ODbL 1.0 | Yes, for databases | Database or change file on public use (§4.6) | — | — | Yes | GPL-incompatible per the FSF | Only for data derived from ODbL sources |
-| CC BY-SA plus an added source clause | — | — | — | — | — | Breaks CC compatibility; CC BY-SA bars added terms | Not viable |
+| ODbL 1.0 | Yes, for databases | Database or change file on public use (§4.6) | — | — | Yes | GPL-incompatible per the FSF | Only for data derived from ODbL sources, which keeps its license |
 
 Sources: [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.txt), [CC BY-SA 4.0 legal code](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en), [CC compatible licenses](https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses/), [FSF license list](https://www.gnu.org/licenses/license-list.html), [GFDL 1.3](https://www.gnu.org/licenses/fdl-1.3.txt), [Open Definition licenses](https://opendefinition.org/licenses/).
 
 ### Compatibility facts
 
-**The answer.** CC BY-SA material may flow one way into GPLv3, and nothing flows from AGPL into CC BY-SA, so each kind of work should stay under its own license.
+**The answer.** Under Entry 9, outside material enters an NTARI work only if its license lets the combined work be conveyed under AGPL-3.0. Anything else is cited or linked.
 
-- **The CC route into GPL.** CC BY-SA 4.0 material can go into GPLv3 works, one way only (declared 2015-10-08). The adapter must meet the GPL source rule, and the result is GPLv3 "version 3 only". Creative Commons calls the mechanism not for general use.
-- **AGPL and GPL.** AGPL-3.0 and GPL-3.0 parts may be combined into one work, and each part keeps its own license (AGPL §13; [GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#AGPLGPL)). No CC or FSF statement covers a route from CC BY-SA through GPLv3 into AGPL.
-- **What fits where.** A document that adapts outside CC BY-SA 4.0 material can simply stay CC BY-SA. Software-bound documentation should use permissive or GPL-compatible material, or link to it.
-- **AGPL §13 and static pages.** It applies only to modified programs that support remote interaction ([GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#AGPLv3InteractingRemotely)). It is inert for a static page and matters for documentation sites with server code, such as agrinet-docs.
-- **OSI approval.** AGPL-3.0 and GPL-3.0 are OSI-approved; no CC license is ([OSI list](https://opensource.org/licenses)). This does not affect documents: P2-003's "OSI-approved license" rule covers only software (P2-003 L22).
-- **The DCO wording.** DCO 1.1 refers to the license indicated in the file, yet most NTARI Markdown files indicate none. A one-line SPDX notice or footer on each new file meets that wording under either license.
+- **AGPL and GPL.** AGPL-3.0 and GPL-3.0 parts may be combined into one work, and each part keeps its own license (AGPL §13; [GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#AGPLGPL)). That is how the governance-rand#2 report, which stays GPL-3.0, sits in an AGPL repository.
+- **CC BY-SA material.** CC BY-SA 4.0 material can go into GPLv3 works one way only (declared 2015-10-08), but Creative Commons calls that route not for general use. No CC or FSF statement covers a route onward into AGPL. So CC BY-SA text and images are cited or linked, not copied into AGPL documents.
+- **Permissive material.** Material under licenses such as CC BY, MIT or Apache 2.0 can generally be included, keeping its notice.
+- **OSI approval.** AGPL-3.0 is OSI-approved, so documents now also meet P2-003's "OSI-approved license" wording.
+- **The DCO wording.** DCO 1.1 refers to the license indicated in the file, yet most NTARI Markdown files indicate none. A one-line SPDX notice or footer on each new file meets that wording.
 
 ### Grants already made stand
 
-No act may impair a license already granted ([§13.2][v10-13.2]). Every version already published keeps its license. The new rule applies to versions published afterwards.
+No act may impair a license already granted ([§13.2][v10-13.2]). Every version already published keeps its license. Entry 9 applies to versions published afterwards.
 
-- **Bylaws v1.0.** It was published under AGPL-3.0 on 2026-09-02 (commit `4246602`) and relicensed to CC BY-SA 4.0 on 2026-10-08 (PR #1). It is available under both. The README's statement that AGPL "does not apply here" ([L101-105][readme-101]) should be annotated, not rewritten.
+- **The CC BY-SA repositories.** Versions of the bylaws, Policies, the four *-rand repositories and the five seeds published before they are relicensed stay available under CC BY-SA 4.0 too. Their new notices should say so.
+- **Bylaws v1.0.** It was published under AGPL-3.0 on 2026-09-02 (commit `4246602`) and relicensed to CC BY-SA 4.0 on 2026-10-08 (PR #1), so it is already available under both. The README's statement that AGPL "does not apply here" ([L101-105][readme-101]) should be annotated, not rewritten.
 - **Policies.** Policies published under P2-004 v1.0's CC BY 4.0 keep it for those versions.
-- **governance-rand research.** It stays GPL-3.0 unless every holder agrees otherwise, the author of the merged report in PR #2 included. This note is GPL-3.0 too, as the repository is.
-- **Repositories declared "AGPL-3.0" with no version grant.** Janus's README, agrinet-docs and developer-portal need counsel's view before NTARI writes "-or-later" on outside contributors' work.
+- **governance-rand.** NTARI relicenses its own text to AGPL-3.0. The merged report in PR #2 stays GPL-3.0 unless its author agrees otherwise. This note is AGPL-3.0 under Entry 9.
+- **Repositories already declared "AGPL-3.0" with no version grant.** Janus's README, agrinet-docs and developer-portal need no change. Counsel's view is needed only before NTARI writes "-or-later" on outside contributors' work there.
 
 ### Or later, or only
 
-**The answer.** Keep "or any later version" for now, and ask the federation.
+**The answer.** Still open. Until the federation decides, notices written under Entry 9 name version 3 only, because NTARI can later widen its own works to "or any later version" but can never narrow a grant once made.
 
 **For "or later":**
 
 - Code search finds "AGPL-3.0-or-later" 84 times across six NTARI repositories and "AGPL-3.0-only" nowhere.
 - The v1.1 draft §9.4 says it ([v1.1 L197][v11-9.4]), and so does the JFA spec ([L15][j-15]).
-- A later FSF AGPL can be used without anyone's consent.
+- A later FSF AGPL can be used without anyone's consent, which fits "until a stronger copyleft appears".
 - A stricter later version would not restrict use of the current one ([GPL FAQ](https://www.gnu.org/licenses/gpl-faq.html#VersionThreeOrLater)).
 
 **Against "or later":** the FSF, not NTARI's members, judges what "later" means. AGPL §14 promises only that later versions will be "similar in spirit".
 
-**The alternative.** Use "only" and name a proxy under AGPL §14: the Institute, or its successor steward under §13.3. That keeps the judgment with the membership and survives the Institute. The cost: every existing notice changes, and works already received under "or later" stay that way.
+**The alternative.** Use "only" and name a proxy under AGPL §14: the Institute, or its successor steward under §13.3. That keeps the judgment with the membership and survives the Institute. The cost: the 84 existing "or later" notices stay as they are, since grants already made cannot be narrowed.
 
 ### Replacement text for P2-004 part 2
 
-Draft text for P2-004 v2.0. It replaces parts 2.1–2.3 of version 1.0.
+Draft text for P2-004 v2.0. It writes Entry 9 into the policy and replaces parts 2.1–2.3 of version 1.0.
 
 ```markdown
 ## 2. LICENSING FRAMEWORK
 
-Replaces parts 2.1–2.3 of version 1.0. Implements bylaws §9.4; where they
-differ, the bylaws control.
+Replaces parts 2.1–2.3 of version 1.0, as amended by governance registry
+Entry 9 (2026-11-13). Implements bylaws §9.4; where they differ, the
+bylaws control.
 
-### 2.1 Software: AGPL-3.0 across the board
+### 2.1 One license: AGPL-3.0
 
-(a) Every piece of software the Institute publishes is licensed under the GNU
-    Affero General Public License, version 3 [or any later version] (SPDX
-    AGPL-3.0[-or-later]). This covers conformance suites, build and
-    publishing scripts, website and documentation-site code, and
-    software-bound documentation: documentation built into, run by or
-    shipped with the software, such as help text.
-(b) No project, office or Board resolution may license Institute software on
+(a) Every work the Institute publishes is licensed under the GNU Affero
+    General Public License, version 3 [or any later version | only] (SPDX
+    AGPL-3.0[-or-later | -only]). This covers software, conformance suites,
+    build and publishing scripts, website and documentation-site code, and
+    every document: the bylaws, every policy, the governance registry,
+    research, technical documentation, course material, website text,
+    translations, data, and the PDFs, slides and prints made from them.
+(b) The JFA official document keeps the license its own text states. It
+    changes only by amendment under bylaws §9.2.
+(c) No project, office or Board resolution may license Institute work on
     other terms. The alternative-license criteria of version 1.0 are
     withdrawn.
 
-### 2.2 Documents: CC BY-SA 4.0
+### 2.2 Source and license with every copy
 
-(a) Every other work the Institute publishes is licensed under CC BY-SA 4.0,
-    wherever it is stored: the specification, the bylaws, every policy, the
-    governance registry, research, technical documentation that is not
-    software-bound, course material, website text, translations, and the
-    PDFs, slides and prints made from them. A paper or specification kept
-    in a software repository carries its own CC BY-SA notice.
-(b) Data the Institute compiles is licensed under CC BY-SA 4.0, which also
-    licenses database rights. A database derived from one under ODbL 1.0
-    stays under ODbL, as that license requires. Facts are no one's property.
-
-### 2.3 Source in the open
-
-(a) The editable source of every Institute document (Markdown, LaTeX,
-    AsciiDoc or OpenDocument) is committed to a public NTARI-RAND
-    repository before the document is published anywhere else. A draft made
+(a) The editable source of every Institute work (for documents: Markdown,
+    LaTeX, AsciiDoc or OpenDocument) is committed to a public NTARI-RAND
+    repository before the work is published anywhere else. A draft made
     in a website builder, design service or chat canvas is exported to an
     open format and committed first.
-(b) Every published form carries its title, version, the license name with
-    a link, and a link to its source. Copies of AGPL-licensed material also
-    carry a copy of the license (AGPL section 4).
+(b) Every published copy carries its title, version and license name, a
+    link to its source, and a copy of the license text (AGPL sections 4
+    and 6). A print or slide deck meets the source duty with a written
+    offer or clear directions to the repository (AGPL section 6(b), 6(d)).
 (c) A translation names the version it translates and states that the
     English text controls.
 
-### 2.4 Until a stronger copyleft appears
+### 2.3 Until a stronger copyleft appears
 
-(a) Software. A successor qualifies only if it is listed as free by the
-    Free Software Foundation and approved by the Open Source Initiative;
-    keeps every freedom and obligation of AGPL-3.0 (source with non-source
-    copies, section 6; the source offer to network users, section 13;
-    installation information, section 6; the patent license, section 11;
-    the anti-circumvention waiver, section 3; the bar on further
-    restrictions, sections 7 and 10); and extends at least one of those
-    obligations.
-(b) Documents. A successor qualifies only if it keeps every freedom and
-    obligation of CC BY-SA 4.0 (share-alike, attribution, the bar on added
-    terms and on technological measures that restrict the licensed rights,
-    and the database-rights grant) and adds at least one obligation, such
-    as a duty to provide the editable source.
-(c) The membership decides by amending bylaws §9.4 under Article XV; during
-    bootstrap, the founder board under §16.1. The decision is recorded in
-    the governance registry and stays open under bylaws §2.3.
-(d) The Institute moves works whose copyright it holds in full. Other
+(a) A successor qualifies only if the Free Software Foundation lists it as
+    free; it keeps every freedom and obligation of AGPL-3.0 (source with
+    non-source copies, section 6; the source offer to network users,
+    section 13; installation information, section 6; the patent license,
+    section 11; the anti-circumvention waiver, section 3; the bar on
+    further restrictions, sections 7 and 10); and it extends at least one
+    of those obligations, for example by barring technological measures
+    that restrict the licensed rights. For software it must also be
+    approved by the Open Source Initiative.
+(b) The membership decides by amending bylaws §9.4 under Article XV;
+    during bootstrap, the founder board under §16.1. The decision is
+    recorded in the governance registry and stays open under bylaws §2.3.
+(c) The Institute moves works whose copyright it holds in full. Other
     contributors' work moves only as its license allows or with each
     holder's written consent. This friction is deliberate and binds the
     Institute too.
 
-### 2.5 Grants already made stand
+### 2.4 Grants already made stand
 
 Nothing here impairs a license already granted (bylaws §13.2). Every version
 published before this part took effect keeps the license it carried.
 
-### 2.6 Others' material
+### 2.5 Others' material
 
 Material from others keeps its own license and is marked. It is incorporated
-only where its license allows the combined work to carry the license this
-part requires; otherwise it is cited or linked. Work the Institute
-contributes to another project follows that project's license.
+only where its license allows the combined work to be conveyed under
+AGPL-3.0; otherwise it is cited or linked. Work the Institute contributes to
+another project follows that project's license.
 ```
 
-### Practical costs to accept
+### Carrying it out
 
-- **Funders.** A funder's open-access rule may require CC BY 4.0. Secondary sources report this for the Gates Foundation's 2025 policy; its own page was not checked. §9.4 as proposed would forbid it, and the federation should decide whether that is acceptable.
-- **Quoting.** Anyone who adapts NTARI documents beyond fair use must share the adaptation under CC BY-SA, as copyleft intends.
-- **Software-bound documents.** These still carry the AGPL burdens: a full license copy with each copy, and a source offer.
+**The answer.** Entry 9 is in force now, so the relicensing need not wait for the bylaws act ([Sequence](#sequence) step 6).
+
+- **Eleven CC BY-SA 4.0 repositories to AGPL-3.0:** bylaws, Policies, covenant-rand, economy-information-rand, record-rand, substrate-rand, childcare-trust-network, lighthouse, shanina, shelter and world-chase-tag. Only the NTARI account appears among their contributors.
+- **Two GPL-3.0 repositories to AGPL-3.0:** GovOS and governance-rand. The governance-rand#2 report keeps its GPL-3.0 notice and a copy of that license.
+- **Notices.** Each README, in every language it is translated into, names AGPL-3.0, says the English text controls, and says earlier versions stay available under their old license. Files with no license line get an SPDX header or footer.
+- **Copies elsewhere.** The P2-004 canvas and web post, ntari.org document footers, and PDFs, which must now carry the license text.
 
 ## Recommendation
 
@@ -890,7 +888,7 @@ contributes to another project follows that project's license.
 
 1. **Placement.** Put every policy into the bylaws through Schedule P, filed by the bylaws section it serves, with full texts in pinned files. Put only floors and checks in the bylaws text. The founder board adopts the eleven bylaws changes by one §16.1 bootstrap act, ideally inside the v1.1 adoption. The Secretary then opens Schedule P by a registry entry.
 2. **P2-004 part 3.** The founder board, acting as the Board under §7.4, ratifies P2-004 v2.0 with the replacement parts 2 and 3: DCO with no bypass, no assignment, no CLA, no governance weight from contribution, and optional enforcement authorizations (option 2).
-3. **Documents.** Fill the §9.4 documents sentence with CC BY-SA 4.0, keeping AGPL-3.0 for all software and software-bound documentation, and adopt the source-in-the-open rule.
+3. **Documents.** Decided by registry Entry 9: AGPL-3.0 for documents and code alike. Write it into §9.4 with the rest of the new text, carry out the relicensing in [Sequence](#sequence) step 6 now, and adopt the source-and-license rule of the new P2-004 part 2.2.
 
 Follow the [sequence](#sequence). Bootstrap acts stay open under §2.3, so later answers from counsel can still change them.
 
@@ -910,8 +908,8 @@ Follow the [sequence](#sequence). Bootstrap acts stay open under §2.3, so later
 
 The federation decides these, with no deadline.
 
-1. Should documents use CC BY-SA 4.0, with AGPL-3.0 for software-bound documentation (recommended), or AGPL-3.0 for everything? Should research data have a license of its own?
-2. Should software be AGPL-3.0 "or any later version" (recommended for now) or "only", with a proxy the membership names?
+1. Should the JFA specification follow Entry 9 to AGPL-3.0? That needs an amendment of the official document's footer under §9.2, and the conformance suite checks the licensing statement, so the suite changes with it.
+2. Should NTARI's notices say AGPL-3.0 "or any later version", or "only" with a proxy the membership names? Until this is decided, notices written under Entry 9 name version 3 only.
 3. Should Schedule P be a code of the bylaws the Board keeps, while the text stays member-only?
 4. Should the delegates hold a power to set aside any Board policy, as the member check on the Board's Schedule P power?
 5. Should the §6.9 deliberation procedure be a Board policy, which fits KRS 273.195(2), or a procedure the Governance federation owns?
@@ -930,7 +928,7 @@ The federation decides these, with no deadline.
 18. If no disinterested majority of directors can be formed, should a conflicted matter wait (the proposed text), go to a members' decision, or rest on the director proving it fair (KRS 273.219(1)(b))?
 19. How many directors sit on the founder board today, and which offices do they hold? The §14.3 disinterested majority and the KRS 273.375 consents depend on it.
 20. Must Schedule P, the eleven changes and each ratified policy be translated into the P2-002 languages? Who translates, and at what cost?
-21. Should §9.4 leave out logos and brand marks? CC BY-SA 4.0 licenses no trademark rights (§2(b)(2)), but it would license a logo's copyright.
+21. Should §9.4 leave out logos and brand marks? AGPL-3.0 lets a licensor decline trademark rights (§7(e)), but it would license a logo's copyright.
 22. Who drafts the conflict-of-interest policy ([Sequence](#sequence) step 8(b)), and from what model? No draft exists.
 23. Once the canonical texts are committed, should each Slack canvas and ntari.org copy carry a banner naming the pinned commit?
 
@@ -949,7 +947,7 @@ Claude (Anthropic) did this research at the direction of the author. Fifteen age
   - P2-004 §3: 52 checked; 28 confirmed, 18 corrected, 2 refuted, 7 unverifiable.
 - **A drafter and a critic.** The critic re-checked the line links and statutes and listed 24 issues.
 
-Every refuted claim is removed and every correction applied; unverifiable claims are marked or left out. The verification moved the documents-license recommendation from AGPL to CC BY-SA 4.0. The revision pass applied the critic's issues, re-checked every bylaws line link against `3276781`, and re-ran the repository's suite on the exact bylaws text quoted here.
+Every refuted claim is removed and every correction applied; unverifiable claims are marked or left out. The verification moved the documents-license recommendation from AGPL to CC BY-SA 4.0. After the note was filed, the President decided AGPL-3.0 for documents and code alike (registry Entry 9); a second revision records that decision and keeps the research as the record of the costs it accepts. The first revision pass applied the critic's issues, re-checked every bylaws line link against `3276781`, and re-ran the repository's suite on the exact bylaws text quoted here.
 
 All work was read-only: nothing was posted, pushed, commented or edited anywhere, and tests ran on scratch copies. Quotes from third-party pages are short. The note contains no email addresses or personal data, names no founder board member and no contributor other than the author; consent questions cite pull requests.
 
@@ -1008,4 +1006,4 @@ Much of this text was drafted by a tool. The choices it recommends are the autho
 
 ---
 
-*Licensed under the [GNU General Public License v3.0](../LICENSE), as this repository is.*
+*Licensed under the [GNU Affero General Public License, version 3](https://www.gnu.org/licenses/agpl-3.0.txt) (AGPL-3.0), under governance registry Entry 9. This repository's LICENSE file still reads GPL-3.0 until it is relicensed under the same entry.*
