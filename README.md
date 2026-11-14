@@ -27,4 +27,8 @@ Merged research is published in #federation-volunteers, on [www.ntari.org](https
 
 ## License
 
-Research in this repository is licensed under the [GNU General Public License v3.0](LICENSE), as the repository was created. The four peer repositories use Creative Commons Attribution-ShareAlike 4.0 for research documents.
+Research in this repository is licensed under the [GNU Affero General Public License, version 3 only](LICENSE) (AGPL-3.0-only), under [governance registry Entry 9](https://github.com/NTARI-RAND/governance-registry/blob/main/GOVERNANCE-REGISTRY.md): the Institute's own work, documents and code alike, is licensed under AGPL-3.0 until a stronger copyleft appears. A Markdown file is its own source, so whoever passes on a rendered or printed copy must include the full license text (AGPL §4) and also make that source available (AGPL §6).
+
+One file keeps the license it came in under. The [Phase 1 Conformance Report](tier-2-jfa-adherence/phase1-conformance-report-2026-10-22.md), contributed in [#2](https://github.com/NTARI-RAND/governance-rand/pull/2), stays under the [GNU General Public License v3.0](LICENSES/GPL-3.0.txt) unless its author agrees otherwise. AGPL-3.0 §13 lets the two be combined.
+
+Versions of this repository up to commit [`9440317`](https://github.com/NTARI-RAND/governance-rand/tree/9440317) were published under the GNU General Public License v3.0, and stay available under that license as well.
