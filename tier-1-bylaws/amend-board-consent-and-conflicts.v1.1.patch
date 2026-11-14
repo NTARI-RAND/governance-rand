@@ -1,0 +1,39 @@
+diff --git a/P1-001_Bylaws_v1.1.md b/P1-001_Bylaws_v1.1.md
+index 34cbedd..aa00bee 100644
+--- a/P1-001_Bylaws_v1.1.md
++++ b/P1-001_Bylaws_v1.1.md
+@@ -162,7 +162,7 @@ Where these bylaws give a matter to a channel or a federation rather than to the
+ 
+ **7.3 Vacancies.** A vacant office is filled by election of the federation bound to it, under §6.8. A federation whose office is vacant conducts no other governance business until it elects, and the governance software enforces this.
+ 
+-**7.4 Action.** The Board acts in meetings, synchronous or asynchronous, on one week's notice to its members, a majority constituting a quorum and a majority of those present deciding. Board proceedings are open to observation by members, and their records are kept under §2.5. The Board holds no recurring meeting requirement: its action may be taken continuously by written consent under KRS 273.375, recorded under §2.5 like any other proceeding.
++**7.4 Action.** The Board acts in meetings, synchronous or asynchronous, on one week's notice to its members, a majority constituting a quorum and a majority of those present deciding. Board proceedings are open to observation by members, and their records are kept under §2.5. The Board holds no recurring meeting requirement: it may act without a meeting only by written consent signed by every director in office, under KRS 273.375, and such consents may be gathered continuously, each recorded under §2.5 like any other proceeding.
+ 
+ **7.5 Reserved powers.** The Board may not amend these bylaws, amend the official document, expel any party, dispose of the Institute's stewardship of the official document or the conformance suite, or dissolve the Institute. Those powers belong to the membership alone. Where these bylaws give a matter to the delegates, a director casting their federation's decision under §5.7 acts as that federation's delegate and not as the Board; this section bars the Board from deciding such a matter on its own motion.
+ 
+@@ -368,7 +368,7 @@ A hybrid deployment requires no ratification, because each prosumer chooses the
+ 
+ **14.2 Books and records.** The Institute keeps the books and records that KRS Chapter 273 and its federal 501(c)(3) recognition require, alongside the governance registry of §9.5. Members may inspect the Institute's records on reasonable notice.
+ 
+-**14.3 Conflicts of interest.** Every director, officer, and delegate discloses any interest they hold in a matter before acting on it, and abstains where the interest conflicts. The Board maintains a conflict-of-interest policy consistent with the Institute's federal recognition; disclosures are recorded under §2.5.
++**14.3 Conflicts of interest.** Every director, officer, and delegate discloses any interest they hold in a matter before acting on it, and abstains where the interest conflicts. A transaction in which a director holds a direct or indirect interest is authorized, approved, or ratified only after disclosure, by a majority of the directors who hold no interest in it, and never by a single director. The Board maintains a conflict-of-interest policy consistent with the Institute's federal recognition; disclosures are recorded under §2.5.
+ 
+ **14.4 Compensation discipline.** Directors serve without compensation for board service. The Institute may compensate staff and contractors reasonably for services rendered, subject to the authorities referenced in §1.2. 
+ 
+@@ -433,7 +433,7 @@ The Covenant federation is likewise eligible to elect its representative when it
+ | §6.9 | Deliberation procedure held to the covenant harm rule; workflow lives with the venue | P1-001 v8.0 §6.3; bylaws §9.10(b); §14.7 |
+ | §7.1, §8.2, §8.3 | Candidacy open to the electing body; directors are its delegates | Concept triage, carried (recallable delegates) |
+ | §7.2, §7.3, §8.1 | Five federation-bound directors after bootstrap, elected continuously; a federation with a vacant office conducts no other business | Consistency review, September 2026 (I-02, I-03) |
+-| §7.4 | Continuous board action by written consent | KRS 273.375; P1-001 v8.0 Appendix B (P1-003) |
++| §7.4 | Continuous board action by written consent signed by every director in office | KRS 273.375(1); P1-001 v8.0 Appendix B (P1-003) |
+ | §8.2 | Covenant R&D; LBTAS API serving compliant assessments; study of the covenant's effects on users, including the §12.5 ratings | Official document, Covenant Layer; consistency review I-17, I-19 |
+ | §8.3, §8.6, §12.1 | Vice President oversees the Governance frontend and enforces through frontend design and public audit reports; Workspace Administrator provides governance-platform services; responsibility shared | Consistency review, September 2026 (I-15) |
+ | §9.2 | Official document amended by a majority of delegates, and not adopted until the conformance suite passes; document-bound invariants decide adoption | Structure article, "Legibility, mechanized"; §2.2 |
+@@ -474,6 +474,7 @@ The Covenant federation is likewise eligible to elect its representative when it
+ | §12.4, §13.2 | Positions and records survive frontends, operators — and the steward | Official document, line 12 (L12) |
+ | §12.5 | Submission to the Vice President; one-week rating administered by the President; one rating each, a −1 with its comment; the ratings decide, a −1 mode refusing and any other mode granting; the delegate decides only where no ratings are cast; seven-day expulsion appeal; ten-week cooldown; same path for barred operators | Open questions §7; consistency review I-01, I-04, I-06, I-19 |
+ | §13.1 | No single point whose removal stops the network | Official document, line 11 (L11) |
++| §14.3 | Disclosure and abstention; a conflicted transaction authorized, approved, or ratified only after disclosure, by a majority of the directors who hold no interest in it, never by a single director | KRS 273.219(1)(a) and (3), whose safe harbor a single director's approval does not earn; the outright bar goes further by choice; §2.2 (a power names its check) |
+ | §14.7 | Lean instrument — lean, auditable code, applied to governance | Official document, Principles |
+ | §15.1 | These bylaws amended by a majority of delegates, every member of each federation voting | §2.1; §2.2 (gravity); §7.5 |
+ | §16.1, §16.2 | Bootstrap by a founder board of three to five; each act recorded and open to challenge; ends when every federation, coded, tested and published, elects | Concept triage, 2026-08-24 (meta); consistency review I-02, I-16 |
