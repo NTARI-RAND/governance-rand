@@ -1008,4 +1008,4 @@ Much of this text was drafted by a tool. The choices it recommends are the autho
 
 ---
 
-*Licensed under the [GNU Affero General Public License, version 3](https://www.gnu.org/licenses/agpl-3.0.txt) (AGPL-3.0), under governance registry Entry 9. This repository's LICENSE file still reads GPL-3.0 until it is relicensed under the same entry.*
+*Licensed under the [GNU Affero General Public License, version 3 only](https://www.gnu.org/licenses/agpl-3.0.txt) (AGPL-3.0-only), under governance registry Entry 9.*
