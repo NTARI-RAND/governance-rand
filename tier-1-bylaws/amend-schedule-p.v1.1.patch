@@ -1,0 +1,348 @@
+diff --git a/P1-001_Bylaws_v1.1.md b/P1-001_Bylaws_v1.1.md
+index 34cbedd..07ad235 100644
+--- a/P1-001_Bylaws_v1.1.md
++++ b/P1-001_Bylaws_v1.1.md
+@@ -164,7 +164,7 @@ Where these bylaws give a matter to a channel or a federation rather than to the
+ 
+ **7.4 Action.** The Board acts in meetings, synchronous or asynchronous, on one week's notice to its members, a majority constituting a quorum and a majority of those present deciding. Board proceedings are open to observation by members, and their records are kept under §2.5. The Board holds no recurring meeting requirement: its action may be taken continuously by written consent under KRS 273.375, recorded under §2.5 like any other proceeding.
+ 
+-**7.5 Reserved powers.** The Board may not amend these bylaws, amend the official document, expel any party, dispose of the Institute's stewardship of the official document or the conformance suite, or dissolve the Institute. Those powers belong to the membership alone. Where these bylaws give a matter to the delegates, a director casting their federation's decision under §5.7 acts as that federation's delegate and not as the Board; this section bars the Board from deciding such a matter on its own motion.
++**7.5 Reserved powers.** The Board may not amend these bylaws, other than Schedule P as §14.10 provides, amend the official document, expel any party, dispose of the Institute's stewardship of the official document or the conformance suite, or dissolve the Institute. Those powers belong to the membership alone. Where these bylaws give a matter to the delegates, a director casting their federation's decision under §5.7 acts as that federation's delegate and not as the Board; this section bars the Board from deciding such a matter on its own motion.
+ 
+ **7.6 No gate not named.** The Board may not insert itself as an approval step in any process these bylaws or the official document define without it — including recognition under §3.3 and stage changes under Article XI.
+ 
+@@ -178,7 +178,7 @@ Where these bylaws give a matter to a channel or a federation rather than to the
+ 
+ **8.3 Vice President.** Elected by the Governance Federation, the office of the Vice President oversees the Governance layer frontend, shares responsibility for the governance platform with the office of the Workspace Administrator (§8.6), and enforces these bylaws with the powers specified in Article XII. Any member of that federation may stand for the office, prosumer members of §3.8 included. 
+ 
+-**8.4 Secretary.** Elected by the Record Federation, the Secretariat keeps governance records, performs the ministerial recognition of members under §3.3, maintains the governance registry of §9.5, receives and records the publications of Article XI, and issues the notices these bylaws require.
++**8.4 Secretary.** Elected by the Record Federation, the Secretariat keeps governance records, performs the ministerial recognition of members under §3.3, maintains the governance registry of §9.5 and Schedule P under §14.9, receives and records the publications of Article XI, and issues the notices these bylaws require.
+ 
+ **8.5 Treasurer.** Elected by the Federation of Economy & Information, the office of the Treasurer keeps the accounts of the Institute, reports to the annual assembly, and complies with authorities referenced in §1.2.
+ 
+@@ -196,7 +196,7 @@ Where these bylaws give a matter to a channel or a federation rather than to the
+ 
+ **9.4 Licensing floor.** JFA software is licensed under the GNU Affero General Public License, version 3 or any later version (AGPL-3.0-or-later), and the specification under the Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0). The Institute never relicenses either into proprietary terms, accepts contributions only under terms consistent with this floor, and signs no agreement that would let any party — including the Institute — close what is open.
+ 
+-**9.5 The governance registry.** The Secretary maintains a public, append-only governance registry recording: recognitions and lapses of membership, and the federation elections and changes of §3.9; the publications of Article XI; expulsions, readmissions, and re-entries under Article XII; and each amendment of the official document and of these bylaws. The registry honors §2.4.
++**9.5 The governance registry.** The Secretary maintains a public, append-only governance registry recording: recognitions and lapses of membership, and the federation elections and changes of §3.9; the publications of Article XI; expulsions, readmissions, and re-entries under Article XII; each amendment of the official document and of these bylaws; and each act under §14.10 or §16.4, with the vote, the signed consents, or the officer's recorded act by which it was taken. The registry honors §2.4.
+ 
+ **9.6 Conformance and the name.** The Institute recognizes a claim of conformance only where executable tests cite the invariant registry's IDs; every other claim it names self-attested. A build that crosses any of the twelve lines is not a smaller JFA; the Institute does not recognize it, federate with it, or count its operation toward membership.
+ 
+@@ -378,11 +378,29 @@ A hybrid deployment requires no ratification, because each prosumer chooses the
+ 
+ **14.7 Lean instrument.** These bylaws are kept lean and auditable, as the official document requires of the code. A provision is added only where it names a power, a duty, or a check that nothing else in the corpus carries; where the official document, the conformance suite, or the dispute-mechanics design already governs a matter, these bylaws cite it rather than restate it. A provision that has become redundant is removed by amendment under Article XV.
+ 
++**14.8 Order of instruments.** Where instruments conflict, the higher controls, in this order: law, including KRS Chapter 273 and the requirements of the Institute's federal recognition; the articles of incorporation; the official document, with its invariant registry, which §9.16 amends as part of it, and the twelve lines, which no amendment may override (§15.2); the text of these bylaws; the runnable conformance suite, apart from its invariant registry, and the dispute-mechanics design, as §1.5 binds them; the board policies of Schedule P; and the office and federation procedures of Schedule P. Within one rank the later controls the earlier. An entry of Schedule P that conflicts with a higher instrument is void to the extent of the conflict, and is otherwise read to serve Article II. A document's number and series are filing labels and decide neither its rank nor who may change it. The English text of every instrument controls; a translation is made for reach, not for interpretation.
++
++**14.9 Schedule P.** Every policy of the Institute, and every document filed in its policy series, has one place in Schedule P, the register of policies the Secretary keeps beside these bylaws in the Institute's public repository of them. Schedule P is a code of these bylaws kept under §14.10 rather than Article XV; it is not their text, and no entry restates or alters their text. Where these bylaws place a policy outside them (§5.6, §6.9), they mean outside their text. It is arranged by the Article and section of these bylaws that each entry serves, so that a reader of any Article finds there every policy on its subject; an entry that serves more than one section is placed once and pointed to from the others. Each entry states its number, title, version, the section it serves, its class, its owner and the office that keeps it, its status, the registry entry recording the act, and where its text is kept. The classes are:
++
++(a) cited instruments: the articles of incorporation, the instruments §1.5 defines, and the versions of these bylaws, each cited and never restated, and each amended by its own path;
++
++(b) board policies, adopted by the Board within a section of these bylaws that the entry names, including the policies these bylaws call for — the venue of §5.6, the deliberation procedure of §6.9, and the conflict-of-interest policy of §14.3 — each shown vacant until one is adopted;
++
++(c) office and federation procedures, each issued by the office or federation the entry names, within the area §§8.2–8.6 give that office, the protocol §5.1 gives that federation's channel, or the duties a board policy gives it;
++
++(d) informative documents: research and other writing that analyzes and never governs; a rule drawn from one binds only when it is adopted into these bylaws or as a board policy or procedure; and
++
++(e) documents not in force: drafts, documents awaiting ratification under §16.4, superseded and withdrawn versions, lost texts, retired numbers, and numbers not yet verified.
++
++Only an entry of class (b) or (c) marked in force, or marked a published notice under §16.4, binds, and only for the version it names. An entry is marked in force only when its text is published where members can read it, at a fixed location that cannot change under it: a commit of a public repository of the Institute, or a registry entry carrying the text or its digest. In an entry of Schedule P, a reference to a moving branch, and a text held only in a proprietary venue, incorporates nothing (§5.6, §13.1). No entry may create or alter a class of membership or a member's rights, set a member's vote, quorum, or notice outside the limits §6.4 and §6.5 set, set the number, election, term, or removal of directors, exercise a power §7.5 reserves, or insert the Board as a gate §7.6 forbids; an entry that attempts any of these is void to that extent, and the matter is taken up under Article XV.
++
++**14.10 Changing a policy.** The Board enters, amends, ratifies, and retires board policies by action under §7.4. An office or federation issues, amends, and retires its procedures — an office by a recorded act of the officer, a federation by its internal majority under §6.5 — and never for its own powers or duties, which these bylaws and the Board set; a procedure that commits the Institute's funds or binds it to an outside party takes effect only when the Board also authorizes it under §7.4, and the Board may amend or revoke any procedure by the same action. The checks on a board policy, and on a Board act amending or revoking a procedure, are the recall of §6.8 and setting aside by the delegates: any member may propose that such a policy or act be set aside, and a set-aside noticed under §6.4 and carried as §6.5 provides is a decision of the membership, open under §2.3 and §6.7. The Secretary makes entries of classes (a), (d), and (e) of §14.9 ministerially, enters every proposed policy as a draft, and annotates an entry when its status changes; a refusal to make an entry states which requirement failed and is challengeable through Article XII, as under §3.3. Every act under this section takes effect when recorded in the governance registry under §9.5 with its text published as §14.9 requires; entries are corrected by annotation or a new version under §2.5, never rewritten or deleted, and remain open to the checks this section names. A number names one document and is never reissued; where a number was issued to more than one document, Schedule P records each use under a distinguishing suffix. Making or annotating an entry by these acts is not an amendment of the text of these bylaws.
++
+ ---
+ 
+ ## Article XV — Amendment
+ 
+-**15.1 By the membership alone.** These bylaws are amended only by a majority vote of the delegates, each federation having decided under §6.5 with every member of that federation holding the vote, prosumer members included, in a ballot noticed under §6.4 carrying the full text of the amendment.
++**15.1 By the membership alone.** These bylaws, other than Schedule P, are amended only by a majority vote of the delegates, each federation having decided under §6.5 with every member of that federation holding the vote, prosumer members included, in a ballot noticed under §6.4 carrying the full text of the amendment. Schedule P is kept under §14.10.
+ 
+ **15.2 Subordination.** No amendment may cross the twelve lines, override the official document, or delete the checks that §2.2 requires each power to carry.
+ 
+@@ -404,6 +422,8 @@ A hybrid deployment requires no ratification, because each prosumer chooses the
+ 
+ The Covenant federation is likewise eligible to elect its representative when its tiers meet the criteria of §16.2, the function of §4.4 is live on at least one federated platform, and at least one prosumer member has elected it under §3.9. The rule of §16.2 against electing oneself applies to it as to the Governance federation: a Covenant federation of one operating member and no prosumer members elects no one. The founder board records the opening and the roll of each channel as above.
+ 
++**16.4 Transition.** Until bootstrap ends, the founder board serves as the Board for every act §14.10 gives the Board, and takes those acts under §7.4 as the Board, not in exercise of the membership's powers under §16.1, so that a later Board may revisit them. A policy approved before 2026-08-31, when version 1.0 of these bylaws took effect, or claimed as adopted with no record of the act, does not bind until the Board ratifies it, conformed to these bylaws, by an act recorded under §9.5; until then its entry is marked awaiting ratification. A notice the Institute has published to the public stays in effect as published until the Board confirms, replaces, or withdraws it; the Secretary commits a copy of it under §14.9 when making its entry, and that copy is the version the entry names. On opening Schedule P, the Secretary enters, each as an entry of its own, the acts recorded under §9.5 on or after 2026-08-31 that made or changed a policy, marked in force where the registry records them as valid; an earlier policy that such an act changed keeps its own status. A policy still awaiting ratification when bootstrap ends under §16.2 is marked superseded. Acts already taken in reliance on such a policy stand, open to the same checks as any other act of the body that took them.
++
+ ---
+ 
+ ## Appendix — Provenance of Demands
+@@ -475,6 +495,8 @@ The Covenant federation is likewise eligible to elect its representative when it
+ | §12.5 | Submission to the Vice President; one-week rating administered by the President; one rating each, a −1 with its comment; the ratings decide, a −1 mode refusing and any other mode granting; the delegate decides only where no ratings are cast; seven-day expulsion appeal; ten-week cooldown; same path for barred operators | Open questions §7; consistency review I-01, I-04, I-06, I-19 |
+ | §13.1 | No single point whose removal stops the network | Official document, line 11 (L11) |
+ | §14.7 | Lean instrument — lean, auditable code, applied to governance | Official document, Principles |
++| §14.8 | Order of instruments: law, articles, official document and invariant registry, bylaws text, suite and dispute design, board policies, procedures | P2-001 Authority Hierarchy, corrected; §1.2; §15.2; KRS 273.247(4) |
++| §14.9, §14.10, §16.4 | Every policy has one place, filed under the section it serves; authority by class, not series; pinned by commit; numbers never reissued; pre-v1.0 policies ratified only as conformed | KRS 273.161(6), 273.191, 273.228; P1-001 v8.0 Appendix B precedent; §9.16 (identifiers never reused); President's direction of 2026-11-13 |
+ | §15.1 | These bylaws amended by a majority of delegates, every member of each federation voting | §2.1; §2.2 (gravity); §7.5 |
+ | §16.1, §16.2 | Bootstrap by a founder board of three to five; each act recorded and open to challenge; ends when every federation, coded, tested and published, elects | Concept triage, 2026-08-24 (meta); consistency review I-02, I-16 |
+ | §16.3 | Governance federation's protocol tier is the Institute; the Governance and Covenant channels open on a live §4.4 function; a prosumer federation counts toward ending bootstrap only with prosumer members from two federated platforms run by different operators | §16.2; §2.2 (gravity); amendment plan of 2026-10-07, item 1.3 |
+diff --git a/P1-001_Schedule-P_Register-of-Policies.md b/P1-001_Schedule-P_Register-of-Policies.md
+new file mode 100644
+index 0000000..0b261e0
+--- /dev/null
++++ b/P1-001_Schedule-P_Register-of-Policies.md
+@@ -0,0 +1,262 @@
++# Schedule P — Register of Policies
++
++Schedule P to P1-001 · a code of the bylaws kept by the Secretary under
++§14.9 and §14.10 · opened by governance registry Entry [n]
++
++> **Draft opening.** This register is proposed together with bylaws
++> §14.8, §14.9, §14.10 and §16.4. It takes effect only when those
++> provisions are adopted and the Secretary opens it by governance registry
++> Entry [n]. Until then no row binds, and every status below is the status
++> proposed for the day of opening. On opening, the Secretary enters rows of
++> classes (a), (d) and (e) and every draft ministerially (§14.10), the
++> published notices (§16.4), and, each as an entry of its own and marked
++> in force, the acts the registry records as valid since 2026-08-31 that
++> made or changed a policy (§16.4). No other row is marked in force,
++> except the rules of this register, which the same act issues.
++
++Every policy of the Institute has one entry here, filed under the bylaws
++section it serves. Only an entry of class (b) or (c) marked in force, or
++a published notice, binds, and only for the version it names. The text of
++the bylaws controls every entry (§14.8). English is authoritative.
++
++## Rules of the register
++
++These rules are the Secretary's procedure for keeping this register
++(§14.9(c), §14.10), issued by the act that opens it, Entry [n]. The
++yearly review in rule 8 is only proposed to the Board; it binds only if
++the Board adopts it as a board policy (§14.10).
++
++1. Where an entry sits: under the section whose subject it puts into
++   practice. A document serving several sections sits once, with pointer
++   rows elsewhere. A document whose subject is unknown sits by its title,
++   or under §14.9.
++2. Columns: Number · Title · Version · Serves · Class · Owner / kept by ·
++   Status · Registry entry · Text (repository @ commit : path).
++3. Status: in force · published notice · vacant · draft · awaiting
++   ratification · superseded · withdrawn · lost · retired · unverified ·
++   informative · cited · pointer.
++4. Numbers: one number, one document, never reissued. Collided numbers
++   keep the bare number for the cited (else most recent) use; other uses
++   take a lowercase suffix in order of first record.
++5. Citing: bylaws sections with the section sign; parts of a policy
++   without it (P2-004 part 3.1). Entries name offices, never people.
++6. Where texts live: NTARI-RAND/Policies, one file per version. Protocol
++   specifications stay beside their code. A Slack canvas, web post,
++   Confluence page or local file is a copy.
++7. Not policies: executive actions (EX-###) and single-matter registry
++   decisions get pointer rows only.
++8. Review: a draft untouched for twelve months is annotated with the date
++   of its last change, and its status stays draft. Proposed to the Board:
++   the Board reviews each board policy yearly, and issuers review their
++   procedures yearly.
++9. Text column: the pinned location where one exists; "to commit and
++   pin" where a text exists, or may yet be found, but is not pinned; "—"
++   where no text exists to pin. A pointer row's text is the row it points
++   to.
++10. Registry entries are cited from the registry of record, the `main`
++    branch of [NTARI-RAND/governance-registry][reg-repo] (Entry 10).
++
++**Classes** (§14.9): (a) cited instruments · (b) board policies ·
++(c) office and federation procedures · (d) informative documents ·
++(e) documents not in force.
++
++**Seats** (§7.2): Covenant = President and Covenant federation.
++Governance = Vice President and Governance federation. Record = Secretary
++and Record federation. Economy & Information = Treasurer and its
++federation. Substrate = Workspace Administrator and Substrate federation.
++
++## How this opening was compiled
++
++The rows follow the placement table of
++[NTARI-RAND/governance-rand#4][gr4], built from an inventory of
++2026-11-13 (61 entries: 52 numbered, 9 unnumbered) and its verification.
++Statuses are carried as that table gives them, except where §16.4
++requires otherwise: the DCO mechanics are marked awaiting ratification,
++and the acts entered at opening say so. Before opening, the Secretary:
++
++- confirms each number suffix, since three documents found only as
++  citations in the bylaws v3.1 draft were added late;
++- re-checks three kinds of fact the inventory reported and nobody
++  re-checked: the 2026-03-18 renumbering proposal, the P2-003 canvas's
++  "[Board resolution required]" line and its Gitee ban, and whether each
++  gen-1 Confluence page is deleted or current;
++- reads the texts the inventory never read, which may hold further
++  policies that need rows: Membership Types, Working Group Charters,
++  Appendices A and B, How Federation Members Vote, NTARI Workflows -
++  Broadcast Specification (canvas F0BB2DXP8CT), an unidentified canvas
++  (F09QYU8PW3S), two proposal canvases, and a "32-policy-governance-voting"
++  file.
++
++Where a row says a rule "moves into the §9.4 text", that happens only if
++§9.4 is amended to carry it; this register does not amend §9.4.
++
++## Article I — The Corporation
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| — | Articles of incorporation | — | §1.2 | (a) | The members or directors under KRS 273.263 | cited. Copy to be obtained. The Kentucky record shows organization 1268393, filed 2023-03-17, active and in good standing; the filing images were not retrieved | — | to commit and pin |
++| P1-003a (also shared as P1-006: retired alias P1-006a) | Political Campaign and Lobbying Activities Policy (gen-1) | — | §1.2 | (e) | Board if revived; Treasurer for compliance reporting | lost (Confluence 72548356 deleted) | — | to commit and pin (text lost) |
++| P3-001b | TechSoup API Integration and Compliance Framework | — | §1.2 | (d) | Institute; Economy & Information seat | informative (Confluence 69664771) | — | to commit and pin |
++| P2-003 | Open Source Software Broadcast and Preservation Policy | — | §1.4(b) | pointer | — | pointer: entered at §13.1 | — | see the §13.1 row |
++| P1-002 (first numbered P1-005: retired alias P1-005a) | Whitepaper: Addressing Democratic Information Velocity | 3.0 | §1.4(c) | (d) | Institute as author; filed with the Governance seat | informative. ntari.org post; Confluence 73334786 is a copy. Its first number (P1-005, shared 2025-10-02) is recorded as retired alias P1-005a. Its web footer's "AGPL v3" already matches Entry 9 | — | to commit and pin |
++| P1-003b | The Anthropology of Light | 1.0 | §1.4(c) | (d) | Institute as author; Governance seat | informative, draft research (Confluence 79298611) | — | to commit and pin |
++| P2-004c | Virtual Software Development Studio Policy, cited in the bylaws v3.1 draft §2.3 | — | §1.4(c) | (e) | Secretary keeps the row | cited; text not found | — | to commit and pin (no text found) |
++| P2-013-A | Lost Sheep Research Fellowship Program Policy | — | §1.4(c) | (e) | The office P2-013 names | lost (only the space overview, Confluence 77889774, survives) | — | to commit and pin (text lost) |
++| P3-001a | NTARI Whitepaper Template (gen-1) | — | §1.4(c) | (e) | Record seat | lost (Confluence 65208351) | — | to commit and pin (text lost) |
++| P3-003 | Conceptual Diagnosis | — | §1.4(c) | (d) | Institute; Governance seat | informative; known only from channel C09N9K91ZBL. A 2026-03-18 elimination proposal has no recorded outcome; the number is never reused | — | to commit and pin |
++| P3-007 | Q-Zoo QUBO Problem Application Method | — | §1.4(c) | (d) | Institute | informative; text not located | — | to commit and pin (text not located) |
++| P3-008 | How to Analyze Network Datasets for Q-Zoo | — | §1.4(c) | (d) | Institute | informative | — | to commit and pin |
++| P3-009 | Quantum Network Analysis | — | §1.4(c) | (d) | Institute | informative. The proposal to reassign P3-009 to the Material Culture paper is refused; the number is never reused | — | to commit and pin |
++| P3-010 | (unverified) | — | §1.4(c) | (e) | Record seat | reserved, not issued, until the Secretary resolves it | — | — (no document issued) |
++| P3-[new] | The Material Culture of Democratic Deliberation (research paper) | — | §1.4(c) | (d) | Institute; Governance seat | informative. Proposed on 2026-03-18 to take P3-009; it takes a fresh P3 number instead | — | to commit and pin |
++| P2-005b | NTARi Corps Volunteer R&D Policy | — | §1.4(c)–(d) | pointer | — | pointer: entered at §14.4 | — | see the §14.4 row |
++| P2-002 | Global Multilingual Broadcast Policy | 2.0 | §1.4(d) | (e) | Board; kept by the Record seat | awaiting ratification. "Adopted: October 2025" has no record. The ratifying act also decides the 2026-07-24 Presidential directive adding French and toki pona | — | to commit and pin |
++| P2-013 | Global Community Programs Policy | 1.0 | §1.4(d) | (e) | Board; the entering act names the keeping office | draft (canvas F09J338M2G5, header "P2-[TBD]"). Its program charters become (c) | — | to commit and pin |
++| P2-014 | "NAGA" | — | §1.4(d) | (e) | Secretary keeps the row | cited only by P2-003; no text exists; number retired | — | — (no text exists) |
++| P3-005 | The Optimal Languages for NTARI's Global Broadcast | 2.0 | §1.4(d) | (d) | Institute; Record seat | informative. Its "operative pending ratification" line has no effect; only P2-002 can make languages operative | — | to commit and pin |
++| — | JFA instruments: official document, invariant registry, suite, dispute-mechanics design, OPEN-QUESTIONS | — | §1.5 | (a) | The membership (§7.5, §9.2) | cited, pinned at Janus `9aa2332` | — | `NTARI-RAND/Janus` @ `9aa2332` |
++
++## Article II — Principles
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| — | ntari.org Privacy Policy | effective 2026-01-27 | §2.4 | (b) | Board; kept by the Record seat, with the Treasurer for donor data | published notice under §16.4. The Secretary commits a copy so it is pinned | — | to commit and pin |
++| P2-012 | Policy Archiving and Preservation Policy (gen-1) | — | §2.5 | pointer | — | pointer: entered at §14.9 | — | see the §14.9 row |
++| P3-013 | Mycelium: The Immutable Transaction-Record Ledger | — | §2.5 | pointer | — | pointer: entered at §9.1 | — | see the §9.1 row |
++
++## Article III — Membership
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| P2-009 | Community Member Handbook (gen-1) | — | §3.1 | (e) | Record seat | lost (Confluence 70451229). If reissued: (d) only; member rights live only in the text | — | to commit and pin (text lost) |
++| Registry Entry 5 | Audio Arts seed: §3.2(b) reading and §14.3 disclosure | — | §3.2(b) | pointer | Founder board | pointer row. A reading of a membership condition is kept out of board policy by design (§7.6, §14.6). KRS 273.187(1) requires membership qualifications and rights in "the articles of incorporation or the bylaws"; keeping them in the text keeps them valid even if counsel rejects Schedule P as a code of the bylaws | [Entry 5][reg] | the registry entry |
++
++## Article V — Federation Channels
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| P3-012 | Agrinet Protocol Specification | — | §5.1 | pointer | — | pointer: entered at §9.1 | — | see the §9.1 row |
++| — | Research & Development Submission Guide (canvas F0BTB5N93A9) | — | §5.2 | (e) | The office the §6.9 policy names; the Secretary keeps it | draft in use. Target: (c) issued by the office the §6.9 policy names | — | to commit and pin |
++| P2-006a | Working Group Leader Handbook (gen-1) | — | §5.3 | (e) | Unknown | lost (Confluence 70713348) | — | to commit and pin (text lost) |
++| P1-005 | Governance Venue Policy | 1.0 | §5.6 | (b) | Board adopts; kept by the Substrate seat (§8.6). Under v1.1 the Vice President and Workspace Administrator share the governance platform (§8.3, §8.6), so the keeping may become shared | required slot, vacant. The v1.0 draft, cited in the Text column, is class (e) until adopted. On adoption the canonical file moves to NTARI-RAND/Policies, and its header must name a Board act, not a bootstrap act under §16.1 | — | to commit and pin (draft: `NTARI-RAND/bylaws` @ `3276781` : `P1-005_Governance-Venue-Policy_v1.0.md`) |
++
++## Article VI — Assemblies and Decisions
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| P2-004b | Sociocracy 3.0 Slack Implementation Policy | 1.0 | §6.9 | (e) | Board | draft never adopted (canvas F09PS6WRK52). Its circle-consent model replaces delegate voting, which no policy may do | — | to commit and pin |
++| P3-002a | How to Vote (gen-1) | — | §6.9 | (e) | Secretary keeps the row | unverified (Confluence 69337101, content not read) | — | to commit and pin |
++| P2-[new] | Voting Workflows (canvas F0CE24ZEW1J) | — | §6.9 | (b) | Board adopts (KRS 273.195(2)); kept by the Governance seat; the Secretary files results | required slot, vacant. The canvas named in the Title column is a class (e) draft in use. Takes a fresh number | — | to commit and pin |
++
++## Article VII — Board Governance
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| P2-003a | Board Advisory Council Policy (gen-1) | — | §7.1 | (e) | Board | lost (Confluence 63668225). If revived: (b); advisory only (KRS 273.221(4)) | — | to commit and pin (text lost) |
++| P2-008 | Board Member Handbook (gen-1) | — | §7.1 | (e) | Board | lost (Confluence 70680641) | — | to commit and pin (text lost) |
++| P1-003 | Continuous Board Meeting Policy | — | §7.4 | (e) | Board; the Secretary records actions | awaiting ratification. "Accepted April 21, 2026" in Slack, before v1.0; no registry entry. Its 5-of-8 quorum, 2-day notice and quarterly meetings conflict with v1.0 §7.2 and §7.4. The consent rule itself stays in the §7.4 text | — | to commit and pin |
++
++## Article VIII — Directors
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| P2-007 | Officer Handbook (gen-1) | — | §8.1 | (e) | Board | lost (Confluence 70746114) | — | to commit and pin (text lost) |
++| P2-010 | Director of Remote Policy (gen-1) | — | §8.1, by its title | (e) | Secretary keeps the row | lost (Confluence 70680651); number retired | — | to commit and pin (text lost) |
++| P1-006 | Officer Policy Framework – Office of the President | — | §8.2 | (e) | Board adopts | draft (Confluence 77890155; cites the pre-v1.0 "Article IV"). To be folded into one officer-duties Board policy (KRS 273.228) | — | to commit and pin |
++| P2-005d | NTARI Secretary Responsibilities | — | §8.4 | (e) | Board | unverified (a role description shared by direct message; not read) | — | to commit and pin |
++| P2-005 | Open Collective Financial Policies | — | §8.5 | pointer | — | pointer: entered at §14.2 | — | see the §14.2 row |
++| P2-006 | Fiscal Hosting Policy and Terms | — | §8.5 | pointer | — | pointer: entered at §14.2 | — | see the §14.2 row |
++| P2-[new] | Repository security defaults (Registry Entries 6–7) | — | §8.6 | pointer | — | pointer: entered at §13.1 | — | see the §13.1 row |
++| — | SoHoLINK product policies | — | §8.6 | pointer | — | pointer: entered at §10.2 | — | see the §10.2 row |
++| — | Repository security policies | — | §8.6 | pointer | — | pointer: entered at §13.1 | — | see the §13.1 row |
++
++## Article IX — Stewardship of the Architecture
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| P3-002 | The Agrinet Whitepaper | — | §9.1 | (d) | Institute; Economy & Information seat | informative. English text only on Agrinet branch `refactor/mycelium-operator-witness` (blob `25694dd`); re-pin to `main` after merge. The GPL-3 notice on Confluence copy 2949125 is annotated | — | Agrinet blob `25694dd` (branch `refactor/mycelium-operator-witness`) |
++| P3-011 | Janus Facing Applications | 2.1 | §9.1 | (d) | Institute; Governance seat | informative, branch only (blob `abc6c09`). The web v1.0 is listed as superseded | — | Agrinet blob `abc6c09` (branch only) |
++| P3-012 | Agrinet Protocol Specification | 0.3 | §9.1 | (e) | Economy & Information federation, kept by the Treasurer's office | draft, branch only (blob `55cca71`). Target: (c). Rules meant to bind conformance go through §9.2 | — | Agrinet blob `55cca71` (branch only) |
++| Registry Entry 3 | Agrinet federation sync: per-peer authentication | — | §9.1, under P3-012 | pointer | Founder board; "decided by the President, for the founder board" | pointer row. A decision of record, not a policy | [Entry 3][reg] | the registry entry |
++| Registry Entry 4 | Annotation of Entry 3: the import condition on Agrinet #197 is waived | — | §9.1, under P3-012 | pointer | Founder board; "decided by the President, for the founder board" | pointer row. A decision of record, not a policy. Its "no bypass" rule for DCO moves into §9.4 when §9.4 is amended to carry it | [Entry 4][reg] | the registry entry |
++| P3-013 | Mycelium: The Immutable Transaction-Record Ledger | 0.3 | §9.1 | (e) | Record federation, kept by the Secretary's office | draft, branch only (blob `745272e`). Its declared home NTARI-RAND/Mycelium now redirects to NTARI-RAND/Tell | — | Agrinet blob `745272e` (branch only) |
++| Registry Entry 9 | AGPL-3.0 for all works, documents and code alike | 2026-11-13 | §9.4, beside P2-004 | (b) | Board, for P2-004; the membership, once §9.4 carries the floor | in force as a recorded Board act amending P2-004 Part 2, entered at opening under §16.4. Its rule moves into the §9.4 text when §9.4 is amended to carry it | [Entry 9][reg] | the registry entry |
++| P2-004 | Licensing and Enforcement Strategy | 1.0 | §9.4 | (e); v2.0 to be (b) | Floor: the membership for what §9.4 carries; the Board (Entry 9) for the rest, until §9.4 is amended to carry it. v2.0: Board; the Vice President administers member compliance (§10.8, Article XII). Action against outside infringers needs a Board act and the copyright holders | To be split and corrected. Its floor moves into the §9.4 text when §9.4 is amended to carry it. The rest is to become P2-004 v2.0, class (b), once the Board ratifies a corrected text. v1.0 is (e) awaiting ratification. Parts 2.1–2.3, 3.1, 3.2, 3.4 and 7, the CLA items of part 10 and the part 4.2 "Option C" settlement cannot be ratified as written | [Entry 9][reg] (amends part 2) | to commit and pin |
++| P3-006 | Why We Publish Under AGPL-3 | — | §9.4 | (d) | Institute; Governance seat | informative (ntari.org post) | — | to commit and pin |
++| P3-012a | Municipal Counter-Automation | — | §9.4 | (d) | Institute; Governance seat | informative (ntari.org post labeled P3-012) | — | to commit and pin |
++| — | DCO contribution rule (CONTRIBUTING files, DCO check, org rulesets) | — | §9.4 | (e); to be (c) | Rule: the membership once §9.4 carries it; until then it rests on Entries 4 and 10 and practice. Mechanics: Substrate seat | Split. The rule moves into the §9.4 text when §9.4 is amended to carry it. The mechanics are to be (c), but no act adopting them for the whole organization is recorded: Entry 4 notes the no-bypass check, and Entry 10 sets it for the registry repository only. Under §16.4 they are marked awaiting ratification until the Board ratifies them by a recorded act. The practice itself continues. The placement table had "(c), in force as practice, to be confirmed by a recorded act" | — | `NTARI-RAND/bylaws` @ `3276781` : `CONTRIBUTING.md` L22-38 |
++| — | ntari.org Terms and Conditions | effective 2026-01-27 | §9.4 | (b) | Board; Record seat | "published notice". Its part 4 software-license line ("MIT, GPL, AGPL-3 or Apache") is void to the extent it conflicts with §9.4 | — | to commit and pin |
++| Registry Entry 10 | The registry published in a repository of its own | 2026-11-13 | §9.5 | pointer | Founder board; "decided by the President, for the founder board" | pointer row (added after the placement table). A decision of record, not a policy: the `main` branch of NTARI-RAND/governance-registry is the registry of record | [Entry 10][reg] | `NTARI-RAND/governance-registry` |
++| P2-005 | Open Collective Financial Policies | — | §9.7 | pointer | — | pointer: entered at §14.2 | — | see the §14.2 row |
++| P2-006 | Fiscal Hosting Policy and Terms | — | §9.7 | pointer | — | pointer: entered at §14.2 | — | see the §14.2 row |
++| P3-001 | LBTAS whitepaper (research edition) | — | §9.8 | (d) | Institute; Covenant seat | informative (Confluence 84508688; unpinned) | — | to commit and pin |
++| P3-014 | LBTAS Specification | 0.1 | §9.8 | (e) | Covenant federation, kept by the President's office | draft on LBTAS `main` (`SPEC.md`; pin a commit). Target: (c) guidance. Covenant rules change only under §9.2 | — | to commit and pin (LBTAS `main` : `SPEC.md`) |
++| Registry Entry 8 | LBTAS reading: "page the volume, never the harm" | 2026-11-12 | §9.12, beside P3-014 | (c) | Covenant seat | in force as a procedure (reading) of the President's office under §8.2, entered at opening under §16.4, pending a confirming Board act under §7.4: it reads how the LBTAS API the office oversees behaves, which comes close to the office's own duties (§14.10). Entry 8 itself says it is not an amendment | [Entry 8][reg] | the registry entry |
++
++## Article X — Member Duties
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| — | SoHoLINK product policies (AUP, Privacy, Terms, DMCA, Law Enforcement, Security) | — | §10.2 | (b) for a deployment the Institute runs | Board; Substrate seat | Templates operators adapt, not Institute rows (§10.7). For a deployment the Institute runs: (b), not in force until adopted. Whether it runs soholink.org is unverified | — | SoHoLINK @ `167f15b` |
++| Registry Entry 2 | Residential substrate posture | 2026-09-08 | §10.3 | pointer | The membership through §9.2 and §9.16 | Pointer row to the §1.5 entry. Entry 2 amended the official document and invariant registry | [Entry 2][reg] | the registry entry |
++| P1-004 | Routed, Not Negotiated | 0.1 | §10.3 | (d) | Institute as author; Substrate seat | informative, pinned at Janus `9aa2332`. It says it analyzes and never governs. Its rule is in Entry 2 | [Entry 2][reg] | `NTARI-RAND/Janus` @ `9aa2332` : `P1-004_Substrate-Constraints_v0.1.md` |
++| P2-004 | Licensing and Enforcement Strategy | — | §10.8 | pointer | — | pointer: entered at §9.4 | — | see the §9.4 row |
++
++## Article XIII — Self-Binding of the Institute
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| P2-[new] | Repository security defaults (Registry Entries 6–7) | — | §13.1 | (b) | Board; kept by the Substrate seat | in force as a recorded bootstrap act, entered at opening under §16.4, pending a confirming Board act under §7.4. Takes a fresh P2 number. The office may tighten by procedure; only the Board loosens | [Entry 6][reg], [Entry 7][reg] | the registry entries |
++| P2-003 | Open Source Software Broadcast and Preservation Policy | 1.0 | §13.1 | (e) | Board adopts; kept by the Substrate seat | draft in use; the canvas F09NFBPUWP5 reads "[Board resolution required]". Four fixes are needed before adoption | — | to commit and pin |
++| P2-005a | Open-Source Distribution Policy (gen-1) | — | §13.1 | (e) | None | superseded by P2-003 (Confluence 67371020) | — | to commit and pin |
++| P3-004 | Global Distribution Strategy for Mass Production Networks | — | §13.1, beside P2-003 | (d) | Institute; Substrate seat | informative (ntari.org post; Confluence 84082693 and canvas F09PG3FF0TA are copies) | — | to commit and pin |
++| — | Repository security policies (for example developer-portal `SECURITY.md`) | — | §13.1 | (e) | Substrate seat | repository texts with no adoption record, but policies in substance. Target: (c), one organization-wide text, beside Entries 6–7 | — | to commit and pin |
++| P2-003 | Open Source Software Broadcast and Preservation Policy | — | §13.2 | pointer | — | pointer: entered at §13.1 | — | see the §13.1 row |
++
++## Article XIV — Corporate Administration
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| P2-003b | Volunteer Time Module Policy | — | §14.2 | (e) | Record seat | status unknown (Confluence 84410370). If issued: (c) under the volunteer umbrella policy | — | to commit and pin |
++| P2-005 | Open Collective Financial Policies | 0.1 | §14.2 | (e) | Board; kept by the Economy & Information seat | draft; number provisional. Its §9.4 citation for a documents license (L138, L251) matches neither bylaws version; it resolves once §9.4 names one | — | to commit and pin |
++| P2-005c | Strategic Partnership Management Policy, cited in the bylaws v3.1 draft §7.3 | — | §14.2 | (e) | Secretary keeps the row | cited; text not found | — | to commit and pin (no text found) |
++| P2-006 | Fiscal Hosting Policy and Terms | 0.1 | §14.2 | (e) | Board; kept by the Economy & Information seat; the Secretary keeps the register | draft. Terms §8.2 already says NTARI "takes no assignment of copyright" | — | to commit and pin |
++| P3-003a | Volunteer Records Management Handbook (gen-1) | — | §14.2 | (e) | Record seat | lost | — | to commit and pin (text lost) |
++| — | ntari.org Privacy Policy | — | §14.2 | pointer | — | pointer: entered at §2.4 | — | see the §2.4 row |
++| — | Conflict-of-interest policy | — | §14.3 | (b) | Board; the Secretary records disclosures | required slot, vacant. The most urgent gap: §14.3 requires it, and registry Entry 5 already makes §14.3 disclosures | — | — (no draft exists) |
++| P1-003c | Conflict of Interest Policy, cited as "P1-003" in the bylaws v3.1 draft §8.1 (Slack file F0A3PM5NBUN) | — | §14.3 | (e) | Board | cited; text not found. It may be the same document as P2-002a (unverified) | — | to commit and pin (no text found) |
++| P2-002a | Conflict of Interest Policy (gen-1) | — | §14.3 | (e) | Board | lost (Confluence 61800475 and Jira NTAR-54 both 404) | — | to commit and pin (text lost) |
++| Registry Entry 5 | Audio Arts seed: §3.2(b) reading and §14.3 disclosure | — | §14.3 | pointer | — | pointer: entered at §3.2(b) | — | see the §3.2(b) row |
++| P2-005b | NTARi Corps Volunteer R&D Policy | 1.0 | §14.4 | (e) | Board; the entering act names the keeping office | draft (canvas F09PPRKFCMV). Its "AGPL-3.0 or compatible" clause must be tightened to §9.4; its AGPL-for-data clause already matches Entry 9. Becomes the volunteer umbrella policy | — | to commit and pin |
++| P2-011 | Volunteer Recruitment Policy (gen-1) | — | §14.4 | (e) | The office P2-005b names | lost (Confluence 70451251) | — | to commit and pin (text lost) |
++| — | Volunteer Handbook (Q-Zoo, Confluence 19333121) | — | §14.4 | (e) | The office P2-005b names | draft | — | to commit and pin |
++| P1-004a | Non-Discrimination Policy (gen-1) | — | §14.6 | (e) | Board | lost (Confluence 72613939, 404). If reissued: never a membership test | — | to commit and pin (text lost) |
++| — | Repository codes of conduct (for example developer-portal `CODE_OF_CONDUCT.md`) | — | §14.6 | (e) | Substrate seat; the Board for any conduct rule with a sanction | repository texts with no adoption record, but policies in substance. Target: (c), one organization-wide text. A conduct rule may never add a membership test (§14.6) or a sanction outside Article XII | — | to commit and pin |
++| — | Rules of the register (the rules at the head of this file) | — | §14.9 | (c) | The Secretary (Record seat); rule 8's yearly review: the Board | in force from Entry [n], which opens this register and issues these rules as the Secretary's procedure. Rule 8's yearly review is only proposed to the Board and binds only as a board policy | Entry [n] | this file, at the commit Entry [n] names |
++| P2-001 | Document Priority Policy | 1.2 | §14.9 | (e); v2.0 to be (b) | Text parts: membership. v2.0: Board; kept by the Record seat | Split. The order of authority goes into new §14.8. Register, pinning and no-reuse rules go into §14.9–§14.10. The rest becomes P2-001 v2.0, class (b). v1.2 is (e), never adopted on record | — | to commit and pin |
++| P2-004a | CCC Program – Continuity Clarity Compliance Analysis (gen-1) | — | §14.9 (subject unknown) | (e) | Secretary keeps the row | lost (Confluence 65273897); number retired | — | to commit and pin (text lost) |
++| P2-012 | Policy Archiving and Preservation Policy (gen-1) | — | §14.9 | (e) | Board; Record seat | draft (Confluence 71303182). Its body says "P2-002", a clerical error to annotate. To be merged into P2-001 v2.0, then superseded | — | to commit and pin |
++| NTARI-MESH-001 | Architecture document under a fourth numbering scheme (Confluence 92930049) | — | §14.9, by its title, until read | (e) | Secretary keeps the row | unverified; content not read. It keeps its own label, and takes a P-number only if it proves to be a policy | — | to commit and pin |
++| EX-### | Executive Actions | — | §14.9 | pointer | Secretary, under P2-001 | pointer only: not in Schedule P. P2-001 itself says EX items are tasks, not policies | — | — |
++
++## Article XV — Amendment
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| P1-001 | Bylaws | 1.0; 1.1 | §15.1 | (a) | The membership; the founder board during bootstrap (§16.1). Kept by the Secretary | v1.0 in force (registry Entry 1), pinned at `4246602`, the file's only commit, unchanged at `3276781`. v1.1 draft, not in force. v3.0–v8.0 superseded | [Entry 1][reg] | v1.0: `NTARI-RAND/bylaws` @ `4246602` : `P1-001_Bylaws_v1.0.md`. v1.1: to commit and pin on adoption |
++
++## Article XVI — Transition
++
++| Number | Title | Version | Serves | Class | Owner / kept by | Status | Registry entry | Text |
++|---|---|---|---|---|---|---|---|---|
++| — | v1.1 §16.2 "internal policy" for publishing bootstrap tiers | — | §16.2 | not yet set | Proposed: the Record seat with Board authorization, not the founder board alone, since it decides when the founder board's power ends | Exists only if v1.1 is adopted; vacant | — | — (vacant) |
++
++[reg]: https://github.com/NTARI-RAND/governance-registry/blob/main/GOVERNANCE-REGISTRY.md
++[reg-repo]: https://github.com/NTARI-RAND/governance-registry
++[gr4]: https://github.com/NTARI-RAND/governance-rand/pull/4
++
++---
++
++*Network Theory Applied Research Institute, Inc. — Louisville, Kentucky*
++
++*Licensed under the GNU Affero General Public License, version 3 (AGPL-3.0), under governance registry Entry 9. At commit `3276781` this repository's LICENSE file reads CC BY-SA 4.0; Entry 9 directs its relicensing.*
