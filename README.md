@@ -2,7 +2,7 @@
 
 Research & Development on the Governance Layer of the Janus Facing Architecture.
 
-Where and how humans assemble to act on the stack. Leaving is dear, so members vote here.
+Where and how humans assemble to act as a stack. 
 
 Research is discussed in #rand-governance and voted on in #federation-governance in the NTARI Slack workspace.
 
