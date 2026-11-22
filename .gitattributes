@@ -1,0 +1,16 @@
+# Research records are stored byte-for-byte. Some generated PDFs are
+# ASCII-heavy enough that Git guesses "text"; left alone, end-of-line
+# normalization would rewrite their byte streams.
+*.pdf  binary
+*.docx binary
+*.xlsx binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.md   text eol=lf
+*.csv  text eol=lf
+
+# The Tier 1 amendment patches apply to the bylaws repository, which
+# stores its .md files with LF endings. A patch checked out with CRLF
+# endings no longer matches them, and git apply rejects it.
+*.patch text eol=lf
